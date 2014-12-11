@@ -1,0 +1,486 @@
+# - category: partnership/games/freelance
+#   id: xx-xx-xx
+#   title: XX XX XX
+#   year: 2014
+#   month: 09
+#   roles:
+#     - Co-Founder
+#     - Full Stack Developer
+#   team:
+#     dev:
+#     design:
+#     marketing:
+#     tests:
+#   techno:
+#     back:
+#     front:
+#     mobile:
+#   dates: October 2012 – Present
+#   duration: (2 years 3 months)
+#   status: ongoing/complete
+
+#----------------------------------------------------
+# Adillions
+#----------------------------------------------------
+
+- category: partnership
+  id: adillions
+  title: Adillions
+  year: 2014
+  month: 09
+  roles:
+    - Co-Founder / CTO
+    - Full Stack Developer
+  team:
+    dev: 2
+    design: 1
+    marketing: 1
+  techno:
+    back:
+      - Node.js
+    front:
+      - Backbone.js
+      - Marionette.js
+    mobile:
+      - Lua
+      - Corona SDK
+  status: ongoing
+  dates: since September 2013
+  duration: (1 year 4 months)
+
+#----------------------------------------------------
+# Behind The Wind
+#----------------------------------------------------
+
+- category: games
+  id: behind-the-wind
+  title: Behind The Wind
+  year: 2014
+  month: 04
+  roles:
+    - Mobile Developer
+    - Game Designer
+  team:
+    dev: 1
+  techno:
+    back:
+    front:
+    mobile:
+      - Lua
+      - Corona SDK
+  status: complete
+  dates: September 2013 - April 2014
+  duration: (2 months over this period)
+
+#----------------------------------------------------
+# Photobox MStudio
+#----------------------------------------------------
+
+- category: freelance
+  id: mstudio
+  title: Photobox MStudio
+  year: 2014
+  month: 01
+  roles:
+    - Front-end Developer
+  team:
+    dev: 6
+    design: 1
+  techno:
+    back:
+      - Node.js
+    front:
+      - Backbone.js
+      - Marionette.js
+      - HTML/CSS
+  status: complete
+  dates: December 2013 - November 2014
+  duration: (1 year)
+
+#----------------------------------------------------
+# Maperial
+#----------------------------------------------------
+
+- category: partnership
+  id: maperial
+  title: Maperial
+  year: 2013
+  month: 06
+  roles:
+    - Co-Founder
+    - Front-end Developer
+  team:
+    dev: 3
+  techno:
+    front:
+      - JavaScript
+      - HTML5
+  status: ongoing
+  dates: since October 2013
+  duration: (2 years 3 months)
+
+#----------------------------------------------------
+# Kodo
+#----------------------------------------------------
+
+- category: games
+  id: kodo
+  title: Kodo
+  year: 2013
+  month: 08
+  roles: 'Game Designer, Mobile Developer'
+  dev-team: 1
+  design-team: 0
+  mark-team: 0
+  status: complete
+  roles:
+    - Mobile Developer
+    - Game Designer
+  team:
+    dev: 1
+  techno:
+    back:
+    front:
+    mobile:
+      - Lua
+      - Corona SDK
+  status: complete
+  dates: August 2013
+  duration: (2 weeks)
+
+#----------------------------------------------------
+# The Lightning Planet
+#----------------------------------------------------
+
+- category: games
+  id: the-lightning-planet
+  title: The Lightning Planet
+  year: 2013
+  month: 07
+  roles: 'Game Designer, Mobile Developer'
+  dev-team: 1
+  design-team: 0
+  mark-team: 0
+  status: complete
+  roles:
+    - Mobile Developer
+    - Game Designer
+  team:
+    dev: 1
+  techno:
+    back:
+    front:
+    mobile:
+      - Lua
+      - Corona SDK
+  status: complete
+  dates: July - August 2013
+  duration: (2 months)
+
+#----------------------------------------------------
+# Diligis
+# http://diligis.herokuapp.com/
+#----------------------------------------------------
+
+- category: partnership
+  id: diligis
+  title: Diligis
+  year: 2013
+  month: 05
+  roles:
+    - Full Stack Developer
+    - Mobile Developer
+  team:
+    dev: 1
+    marketing: 1
+  techno:
+    back:
+      - Play! Framework
+      - PostgreSQL
+    mobile:
+      - Lua
+      - Corona SDK
+  status: complete
+  dates: April – June 2013
+  duration: (3 months)
+
+#----------------------------------------------------
+# Cadeaux
+#----------------------------------------------------
+
+- category: partnership
+  id: cadeaux
+  title: Cadeaux
+  year: 2012
+  month: 09
+  roles:
+    - Full Stack Developer
+  team:
+    dev: 1
+    marketing: 1
+  techno:
+    back:
+      - Play! Framework
+      - Facebook API
+    front:
+      - JavaScript
+      - HTML/CSS
+  status: complete
+  dates: August – October 2012
+  duration: (3 months)
+
+#----------------------------------------------------
+# The Band
+#----------------------------------------------------
+
+- category: games
+  id: the-band
+  title: The Band
+  year: 2012
+  month: 04
+  roles:
+    - Full Stack Developer
+    - Game Designer
+  team:
+    dev: 1
+    design: 1
+  techno:
+    back:
+      - Java
+      - Spring framework
+      - Hibernate
+    front:
+      - JavaScript
+      - HTML/CSS
+  status: complete
+  dates: April – May 2012
+  duration: (2 months)
+
+#----------------------------------------------------
+# Eram Assortiment
+#----------------------------------------------------
+
+- category: freelance
+  id: assort
+  title: Eram Assortiment
+  year: 2012
+  month: 01
+  roles:
+    - Front-end Developer
+  team:
+    dev: 4
+  techno:
+    front:
+      - Flex 4
+  status: complete
+  dates: March 2011 – September 2012
+  duration: (1 year 6 months)
+
+#----------------------------------------------------
+# Tribes And Khans
+#----------------------------------------------------
+
+- category: games
+  id: tribes-and-khans
+  title: Tribes And Khans
+  year: 2011
+  month: 08
+  roles:
+    - Full Stack Developer
+    - Game Designer
+  team:
+    dev: 1
+    design: 1
+  techno:
+    back:
+      - Java
+      - Spring Framework
+      - Google AppEngine
+    front:
+      - Flex 4
+  status: complete
+  dates: December 2010 - July 2012
+  duration: (1 year 7 months)
+
+#----------------------------------------------------
+# Robeco
+#----------------------------------------------------
+
+- category: freelance
+  id: robeco
+  title: Robeco
+  year: 2010
+  month: 11
+  roles:
+    - Front-end Developer
+  team:
+    dev: 3
+  techno:
+    back:
+      - PHP5
+    front:
+      - Flex 4
+  status: complete
+  dates: October - December 2010
+  duration: (3 months)
+
+#----------------------------------------------------
+# Fools
+#----------------------------------------------------
+
+- category: games
+  id: fools
+  title: Fools
+  year: 2010
+  month: 12
+  roles:
+    - Full Stack Developer
+    - Game Designer
+  team:
+    dev: 1
+  techno:
+    back:
+      - Facebook Graph API
+    front:
+      - Flex 3
+  status: complete
+  dates: August - October 2010
+  duration: (3 months)
+
+#----------------------------------------------------
+# Skooairs
+#----------------------------------------------------
+
+- category: games
+  id: skooairs
+  title: Skooairs
+  year: 2010
+  month: 10
+  roles:
+    - Full Stack Developer
+    - Game Designer
+  team:
+    dev: 1
+  techno:
+    back:
+      - Java
+      - Spring Framework
+      - Google AppEngine
+    front:
+      - Flex 3
+  status: complete
+  dates: July - August 2010
+  duration: (2 months)
+
+#----------------------------------------------------
+# Serendi --> c'etait plutot debut 2010 a priori !
+#----------------------------------------------------
+
+- category: partnership
+  id: serendi
+  title: Serendi prototype
+  year: 2009
+  month: 10
+  roles:
+    - Front-end Developer
+  team:
+    dev: 3
+    marketing: 2
+  techno:
+    front:
+      - Flex 3
+  status: complete
+  dates: December 2009 - February 2010
+  duration: (3 months)
+
+#----------------------------------------------------
+# Uralys
+#----------------------------------------------------
+
+- category: games
+  id: uralys
+  title: Uralys
+  year: 2009
+  month: 06
+  roles:
+    - Full Stack Developer
+    - Game Designer
+  team:
+    dev: 1
+  techno:
+    back:
+      - Java
+      - Spring Framework
+      - Google AppEngine
+    front:
+      - Flex 3
+  status: complete
+  dates: January 2008 - June 2010
+  duration: (2 years 6 months)
+
+
+#----------------------------------------------------
+# Ads-Click
+#----------------------------------------------------
+
+- category: employee
+  id: ads-click
+  title: Ads-Click
+  year: 2008
+  month: 06
+  roles:
+    - Back-end Developer
+  team:
+    dev: 6
+    tests: 3
+    design: 2
+  techno:
+    back:
+      - Java
+  status: complete
+  dates: October 2006 - December 2009
+  duration: (3 years 3 months)
+
+
+#----------------------------------------------------
+# Blub
+#----------------------------------------------------
+
+- category: games
+  id: blub
+  title: Blub
+  year: 2006
+  month: 07
+  roles:
+    - Game Developer
+  team:
+    dev: 1
+  techno:
+    front:
+      - Java
+  status: complete
+  dates: July 2006
+  duration: (1 month)
+
+#----------------------------------------------------
+# Aspects Software
+#----------------------------------------------------
+
+- category: internship
+  id: aspects
+  title: Aspects Software
+  year: 2006
+  month: 02
+  roles:
+    - Intern
+    - Back-end Developer
+  team:
+    dev: 1
+    tests: 1
+  techno:
+    back:
+      - Java
+      - Hibernate
+  status: complete
+  dates: February 2006 - July 2006
+  duration: (6 months)

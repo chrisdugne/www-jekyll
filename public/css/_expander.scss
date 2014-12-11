@@ -1,0 +1,111 @@
+
+// =====================================================
+
+$expander-radius: 2px;
+$expander-whsp: 48px;
+$google-material-shadow-ambient: 0 1px 1.5px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
+$expander-icon-proportion: 24px;
+$expander-card-width: 340px;
+
+// =====================================================
+
+.expander {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+// Expander
+// =====================================================
+.expander-icon {
+  -webkit-transition: transform 250ms 50ms ease;
+  -moz-transition: transform 250ms 50ms ease;
+  -ms-transition: transform 250ms 50ms ease;
+  -o-transition: transform 250ms 50ms ease;
+  transition: transform 250ms 50ms ease;
+  border-radius: 90%;
+  box-shadow: $google-material-shadow-ambient;
+  width: $expander-icon-proportion;
+  height: $expander-icon-proportion;
+  padding: 0;
+  z-index: 2;
+  text-align: center;
+  background: #1A7BD4;
+  color: white;
+
+  svg {
+    width: $expander-icon-proportion;
+    height: $expander-icon-proportion;
+    vertical-align: text-bottom;
+    fill: white;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+
+
+.expander-icon.active {
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.expander-card {
+  border-radius: $expander-radius;
+  box-shadow: $google-material-shadow-ambient;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 0;
+  position: absolute;
+  top: ($expander-icon-proportion *2) / 3;
+  left: 0;
+  right: 0;
+  max-width: $expander-card-width;
+  margin: 0 auto;
+  -moz-transform: scale(0) translateZ(0px);
+  -webkit-transform: scale(0) translateZ(0px);
+  -o-transform: scale(0) translateZ(0px);
+  -ms-transform: scale(0) translateZ(0px);
+  transform: scale(0) translateZ(0px);
+  -moz-transform-origin: top center;
+  -webkit-transform-origin: top center;
+  -o-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  z-index: 1;
+  background: white;
+  opacity : 0;
+}
+
+
+// Expander State
+// =====================================================
+.expander-card {
+  height: auto;
+
+  &.active {
+    height: auto;
+    padding: $expander-whsp;
+    -moz-transform: scale(1) translateZ(0px);
+    -webkit-transform: scale(1) translateZ(0px);
+    -o-transform: scale(1) translateZ(0px);
+    -ms-transform: scale(1) translateZ(0px);
+    transform: scale(1) translateZ(0px);
+    opacity: 1;
+  }
+}
