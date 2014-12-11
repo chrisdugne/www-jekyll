@@ -11,3 +11,7 @@ redcarpet:
 sass:
   sass_dir: public/css
   style: :compressed
+
+# github config :
+gems:
+  - jekyll-markdown-block
