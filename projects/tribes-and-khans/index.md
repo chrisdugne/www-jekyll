@@ -1,5 +1,5 @@
 ---
-layout: project-content
+layout: default
 title: Projects
 ---
 
