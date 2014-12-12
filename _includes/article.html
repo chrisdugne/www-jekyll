@@ -1,0 +1,20 @@
+
+{% assign content = site.data.articles[include.id] %}
+
+<section class="col span_6 highlight center">
+    <header>
+    <h3>{{content.title}}</h3>
+    <p>{{content.subtitle}}</p>
+    </header>
+
+    {% if content.image %}
+    <p>
+        <a href="{{content.link}}" class="project-logo" style="background-image: url({{site.baseurl}}/public/images/{{content.image}});"></a>
+    </p>
+    {% endif %}
+
+    {% for p in content.p %}
+        <p>{{p}}</p>
+    {% endfor %}
+</section>
+

@@ -182,9 +182,11 @@ footer {
 .highlight {
   padding: 30px;
   border-radius: 6px;
-  background-color: #272822;
-  color: #f8f8f2;
+  background-color: rgb(255, 255, 255);
+  color: rgb(65, 65, 65);
   line-height: 1;
+  -webkit-box-shadow: 0 0 12px 1px #bbb;
+  box-shadow: 0 0 12px 1px #bbb;
 
   code {
     font-size: .7rem;
@@ -279,9 +281,8 @@ footer {
 
 .project-logo{
   height: 90px;
-  width: 90px;
+  width: 90px!important;
   display: inline-block;
-  margin-left: 45px;
   background-size: 100px 100px;
   background-position: center;
   background-repeat: no-repeat;
@@ -289,6 +290,10 @@ footer {
   border-radius: 45px;
   -webkit-box-shadow: 0 0 10px 4px #222;
   box-shadow: 0 0 10px 4px #222;
+
+  &.in-row {
+    margin-left: 45px;
+  }
 }
 
 .category,
@@ -349,7 +354,7 @@ dl,
 
 /*============================================================================*/
 
-#logo {
+.logo {
   display: inline-block;
   height: 110px;
   width: 110px;
@@ -358,14 +363,14 @@ dl,
   background-repeat: no-repeat;
 }
 
-#chris {
+.chris {
   border-radius: 70px;
   display: inline-block;
   height: 110px;
   width: 110px;
   margin-top: 10px;
   background-size: 125px 125px;
-  background-position: -17px 0px;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 

@@ -42,7 +42,7 @@ Some lasted more than one year, so I've chosen the year during which there were 
       </h2>
 
       <div class="col span_3">
-        <div class="project-logo" style="background-image: url({{site.baseurl}}/public/images/projects/{{project.id}}/logo.250.jpg);">
+        <div class="project-logo in-row" style="background-image: url({{site.baseurl}}/public/images/projects/{{project.id}}/logo.250.jpg);">
        </div>
       </div>
 
