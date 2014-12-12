@@ -1,8 +1,11 @@
 - url: /
-  title: Home
+  title: Uralys
 
-- url: /about
-  title: About
+- url: /games
+  title: Games
 
-- url: /projects
-  title: Projects
+# - url: /news
+#   title: News
+
+- url: /resume
+  title: Resume

@@ -1,24 +1,15 @@
 ---
 layout: page
-title: Projects
+title: Games
 ---
 
 {% assign currentYear = 0 %}
 
 <section class="archive">
 
-<div class="bundle row gutters fadeInDown animated">
-<p>
-Here are all the projects I've contributed to or created.
-</p>
-<p>
-Some lasted more than one year, so I've chosen the year during which there were the most contributions.
-</p>
-</div>
-
-
 {% for project in site.data.projects %}
 
+{% if project.category != "games" %} {% continue %} {% endif %}
 
 {% if project.year != currentYear %}
   {% assign currentYear = project.year %}
@@ -50,24 +41,8 @@ Some lasted more than one year, so I've chosen the year during which there were 
           <a class="button project-details" href="/projects/{{project.id}}">{{project.title}}</a>
       </div>
 
-      <div class="col span_4">
-        {% for role in project.roles %}
-          <div class="role">{{role}}</div>
-        {% endfor %}
-        <div class="project-dates">{{project.dates}}</div>
-        <div class="duration">{{project.duration}}</div>
-
-        {% if project.status == 'ongoing' %}
-          <div class="contributing">Still contributing !</div>
-        {% endif %}
-      </div>
-
-
   </div>
 </div>
 
 
 {% endfor %}
-
-
-</section>
