@@ -1,6 +1,7 @@
 ---
 layout: page
 title: News
+logo: projects/maperial/logo.250.jpg
 ---
 
 <section class="archive">

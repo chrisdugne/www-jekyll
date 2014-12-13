@@ -1,7 +1,7 @@
 
 {% assign content = site.data.articles[include.id] %}
 
-<section class="col span_6 highlight center">
+<section class="col span_6 highlight center {% if include.centered %}area-centered{% endif %}" {% if include.forceHeight != null %}style="height:{{include.forceHeight}}"{% endif %}>
     <header>
     <h3>{{content.title}}</h3>
     <p>{{content.subtitle}}</p>
@@ -16,5 +16,9 @@
     {% for p in content.p %}
         <p>{{p}}</p>
     {% endfor %}
+
+    <div class="area-centered">
+      <a class="button project-details" href="{{content.link}}">{{content.more}}</a>
+    </div>
 </section>
 

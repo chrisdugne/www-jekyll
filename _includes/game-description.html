@@ -1,0 +1,20 @@
+
+{% assign content = site.data.games[page.id].description %}
+
+<div class="row gutters span_12">
+    <section class="col span_12 highlight center">
+        <header>
+        <h3>{{content.title}}</h3>
+        <p>{{content.subtitle}}</p>
+        </header>
+
+        {% if content.image %}
+            <img class="row gutters span_12" src="{{site.baseurl}}/public/images/{{content.image}}">
+            </img>
+        {% endif %}
+
+        {% for p in content.p %}
+            <p>{{p}}</p>
+        {% endfor %}
+    </section>
+</div>

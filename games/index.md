@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Games
+logo: projects/tribes-and-khans/logo.250.jpg
 ---
 
 {% assign currentYear = 0 %}
