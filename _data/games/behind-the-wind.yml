@@ -1,36 +1,43 @@
-description:
-    title: 2D Mobile Game
-    subtitle: On iOs and Android
-    image: projects/behind-the-wind/devices.png
-    p:
+descriptions:
+    - title: 2D Mobile Game
+      subtitle: On your favorite tablet or mobile (iOs/Android)
+      image: projects/behind-the-wind/devices.png
+      p:
+        - Yet another swipte game... in a mysterious world...
+        - "Discover the first Chapter, it's free !"
+
 
 credits:
-    - name: Corona SDK
+    - name:
+        - value: Corona SDK
+          link: http://www.coronalabs.com/
+        - value: ❤ Lua ❤
       type: tool
       add-margin-top: true
       image:
         url: common/corona.png
         link: http://www.coronalabs.com/
-      texts:
-        - value: ❤ Lua ❤
 
-    - name: Gymbyl Coding
+    - name:
+        - value: Thanks
+        - value: Gymbyl Coding
+          link: http://gymbyl.com
+        - value: ❤ for this awesome effects lib !
       type: tool
       add-margin-top: true
       image:
         url: common/cbeffects.png
         link: http://gymbyl.com
-      texts:
-        - value: Thanks Gymbyl Coding for this awesome effects lib !
 
-    - name: Velvet Coffee
+    - name:
+        - value: Music and sound effects by
+        - value: Velvet Coffee
+          link: https://www.facebook.com/velvetcoffeemusic
       type: asset
       add-margin-top: true
       image:
         url: common/velvetcoffee.png
         link: https://www.facebook.com/velvetcoffeemusic
-      texts:
-        - value: Music and sound effects by Velvet Coffee
 
     - name:
       type: asset

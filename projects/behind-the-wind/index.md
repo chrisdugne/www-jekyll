@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: game
 logo: projects/behind-the-wind/logo.250.jpg
 title: Behind The Wind
 id: behind-the-wind

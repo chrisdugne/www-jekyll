@@ -1,20 +1,26 @@
 
-{% assign content = site.data.games[page.id].description %}
+{% if include.num != null %}
+    {% assign num = include.num %}
+{% else %}
+    {% assign num = 0 %}
+{% endif %}
+
+{% assign content = site.data.games[page.id].descriptions[num] %}
 
 <div class="row gutters span_12">
     <section class="col span_12 highlight center">
         <header>
         <h3>{{content.title}}</h3>
-        <p>{{content.subtitle}}</p>
+        <p class="area-centered">{{content.subtitle}}</p>
         </header>
 
         {% if content.image %}
-            <img class="row gutters span_12" src="{{site.baseurl}}/public/images/{{content.image}}">
+            <img class="row gutters span_12 add-small-margin-top add-small-margin-bottom" src="{{site.baseurl}}/public/images/{{content.image}}">
             </img>
         {% endif %}
 
         {% for p in content.p %}
-            <p>{{p}}</p>
+            <p class="area-centered">{{p}}</p>
         {% endfor %}
     </section>
 </div>
