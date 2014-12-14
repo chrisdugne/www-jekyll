@@ -1,0 +1,18 @@
+#----------------------------------------------------
+
+overview:
+  category: games
+  id: blub
+  title: Blub
+  year: 2006
+  month: 07
+  roles:
+    - Game Developer
+  team:
+    dev: 1
+  techno:
+    front:
+      - Java
+  status: complete
+  dates: July 2006
+  duration: (1 month)

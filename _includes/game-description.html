@@ -5,7 +5,7 @@
     {% assign num = 0 %}
 {% endif %}
 
-{% assign content = site.data.games[page.id].descriptions[num] %}
+{% assign content = site.data.projects[page.id].descriptions[num] %}
 
 <div class="row gutters span_12">
     <section class="col span_12 highlight center">
@@ -15,12 +15,20 @@
         </header>
 
         {% if content.image %}
-            <img class="row gutters span_12 add-small-margin-top add-small-margin-bottom" src="{{site.baseurl}}/public/images/{{content.image}}">
+            <img class="row gutters add-small-margin-top add-small-margin-bottom" src="{{site.baseurl}}/public/images/{{content.image}}">
             </img>
         {% endif %}
 
         {% for p in content.p %}
             <p class="area-centered">{{p}}</p>
         {% endfor %}
+
+        {% if content.button != null %}
+            {% assign button = content.button %}
+            <div class="area-centered">
+              <a class="button project-details" href="{{content.button.link}}">{{content.button.name}}</a>
+            </div>
+        {% endif %}
+
     </section>
 </div>

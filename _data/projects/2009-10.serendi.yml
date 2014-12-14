@@ -1,0 +1,20 @@
+#----------------------------------------------------
+# Serendi --> c'etait plutot debut 2010 a priori !
+
+overview:
+  category: partnership
+  id: serendi
+  title: Serendi prototype
+  year: 2009
+  month: 10
+  roles:
+    - Front-end Developer
+  team:
+    dev: 3
+    marketing: 2
+  techno:
+    front:
+      - Flex 3
+  status: complete
+  dates: December 2009 - February 2010
+  duration: (3 months)

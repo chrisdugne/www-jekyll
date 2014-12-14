@@ -1,0 +1,27 @@
+#----------------------------------------------------
+
+overview:
+  category: games
+  id: the-lightning-planet
+  title: The Lightning Planet
+  year: 2013
+  month: 07
+  roles: 'Game Designer, Mobile Developer'
+  dev-team: 1
+  design-team: 0
+  mark-team: 0
+  status: complete
+  roles:
+    - Mobile Developer
+    - Game Designer
+  team:
+    dev: 1
+  techno:
+    back:
+    front:
+    mobile:
+      - Lua
+      - Corona SDK
+  status: complete
+  dates: July - August 2013
+  duration: (2 months)

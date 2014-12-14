@@ -1,0 +1,23 @@
+#----------------------------------------------------
+
+overview:
+  category: freelance
+  id: mstudio
+  title: Photobox MStudio
+  year: 2014
+  month: 01
+  roles:
+    - Front-end Developer
+  team:
+    dev: 6
+    design: 1
+  techno:
+    back:
+      - Node.js
+    front:
+      - Backbone.js
+      - Marionette.js
+      - HTML/CSS
+  status: complete
+  dates: December 2013 - November 2014
+  duration: (1 year)

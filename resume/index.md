@@ -19,8 +19,8 @@ Some lasted more than one year, so I've chosen the year during which there were 
 </p>
 </div>
 
-
-{% for project in site.data.projects %}
+{% for project_hash in site.data.projects reversed %}
+{% assign project = project_hash[1].overview %}
 
 {% if project.year != currentYear %}
   {% assign currentYear = project.year %}

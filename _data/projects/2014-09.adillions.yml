@@ -1,0 +1,53 @@
+
+#----------------------------------------------------
+
+overview:
+  category: partnership
+  id: adillions
+  title: Adillions
+  year: 2014
+  month: 09
+  roles:
+    - Co-Founder / CTO
+    - Full Stack Developer
+  team:
+    dev: 2
+    design: 1
+    marketing: 1
+  techno:
+    back:
+      - Node.js
+    front:
+      - Backbone.js
+      - Marionette.js
+    mobile:
+      - Lua
+      - Corona SDK
+  status: ongoing
+  dates: since September 2013
+  duration: (1 year 4 months)
+
+#----------------------------------------------------
+
+descriptions:
+  - title: Free Sweepstake
+    subtitle: Funded by advertisement
+    image: projects/adillions/mobile.jpg
+    p:
+
+  - title: Full-stack Developer
+    subtitle: Mobile / Web / Back-end
+    image:
+    p:
+      - "I co-founded Adillions as full-stack developer to build a disruptive new sweepstake."
+      - "I've build the whole platform to launch the game :"
+    li:
+      - "The mobile game (iOS + Android)"
+      - "The server side and its API for our client applications"
+      - "Currently working on the web client application"
+      - "Dev, stage and production platforms using Heroku"
+      - "Social networks integration"
+      - "Evaluated and set up Google analytics to track users over the journey on the App."
+    button:
+      link: http://adillions.com
+      name: www.adillions.com

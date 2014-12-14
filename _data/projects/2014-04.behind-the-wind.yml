@@ -1,3 +1,29 @@
+
+#----------------------------------------------------
+#
+overview:
+  category: games
+  id: behind-the-wind
+  title: Behind The Wind
+  year: 2014
+  month: 04
+  roles:
+    - Mobile Developer
+    - Game Designer
+  team:
+    dev: 1
+  techno:
+    back:
+    front:
+    mobile:
+      - Lua
+      - Corona SDK
+  status: complete
+  dates: September 2013 - April 2014
+  duration: (2 months over this period)
+
+#----------------------------------------------------
+
 descriptions:
     - title: 2D Mobile Game
       subtitle: On your favorite tablet or mobile (iOs/Android)
@@ -6,6 +32,7 @@ descriptions:
         - Yet another swipte game... in a mysterious world...
         - "Discover the first Chapter, it's free !"
 
+#----------------------------------------------------
 
 credits:
     - name:

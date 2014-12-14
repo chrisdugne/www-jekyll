@@ -1,0 +1,25 @@
+#----------------------------------------------------
+# http://diligis.herokuapp.com/
+
+overview:
+  category: partnership
+  id: diligis
+  title: Diligis
+  year: 2013
+  month: 05
+  roles:
+    - Full Stack Developer
+    - Mobile Developer
+  team:
+    dev: 1
+    marketing: 1
+  techno:
+    back:
+      - Play! Framework
+      - PostgreSQL
+    mobile:
+      - Lua
+      - Corona SDK
+  status: complete
+  dates: April – June 2013
+  duration: (3 months)

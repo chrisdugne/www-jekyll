@@ -1,0 +1,21 @@
+#----------------------------------------------------
+
+overview:
+  category: internship
+  id: aspects
+  title: Aspects Software
+  year: 2006
+  month: 02
+  roles:
+    - Intern
+    - Back-end Developer
+  team:
+    dev: 1
+    tests: 1
+  techno:
+    back:
+      - Java
+      - Hibernate
+  status: complete
+  dates: February 2006 - July 2006
+  duration: (6 months)

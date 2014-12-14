@@ -1,0 +1,23 @@
+#----------------------------------------------------
+
+overview:
+  category: games
+  id: uralys
+  title: Uralys
+  year: 2009
+  month: 06
+  roles:
+    - Full Stack Developer
+    - Game Designer
+  team:
+    dev: 1
+  techno:
+    back:
+      - Java
+      - Spring Framework
+      - Google AppEngine
+    front:
+      - Flex 3
+  status: complete
+  dates: January 2008 - June 2010
+  duration: (2 years 6 months)

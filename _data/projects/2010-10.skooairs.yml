@@ -1,0 +1,23 @@
+#----------------------------------------------------
+
+overview:
+  category: games
+  id: skooairs
+  title: Skooairs
+  year: 2010
+  month: 10
+  roles:
+    - Full Stack Developer
+    - Game Designer
+  team:
+    dev: 1
+  techno:
+    back:
+      - Java
+      - Spring Framework
+      - Google AppEngine
+    front:
+      - Flex 3
+  status: complete
+  dates: July - August 2010
+  duration: (2 months)

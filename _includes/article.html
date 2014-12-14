@@ -7,7 +7,7 @@
     <p>{{content.subtitle}}</p>
     </header>
 
-    {% if content.image %}
+    {% if content.image != null %}
     <p>
         <a href="{{content.link}}" target="blank" class="project-logo" style="background-image: url({{site.baseurl}}/public/images/{{content.image}});"></a>
     </p>
@@ -17,8 +17,6 @@
         <p>{{p}}</p>
     {% endfor %}
 
-    <div class="area-centered">
-      <a class="button project-details" href="{{content.link}}">{{content.more}}</a>
-    </div>
+    <a class="button project-details" href="{{content.link}}">{{content.more}}</a>
 </section>
 

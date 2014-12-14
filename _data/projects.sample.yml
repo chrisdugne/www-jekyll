@@ -1,0 +1,49 @@
+# overview:
+#   category: partnership/games/freelance
+#   id: xx-xx-xx
+#   title: XX XX XX
+#   year: 2014
+#   month: 09
+#   roles:
+#     - Co-Founder
+#     - Full Stack Developer
+#   team:
+#     dev:
+#     design:
+#     marketing:
+#     tests:
+#   techno:
+#     back:
+#     front:
+#     mobile:
+#   dates: October 2012 – Present
+#   duration: (2 years 3 months)
+#   status: ongoing/complete
+#
+# descriptions:
+#     - title: 2D Mobile Game
+#       subtitle: On your favorite tablet or mobile (iOs/Android)
+#       image: projects/behind-the-wind/devices.png
+#       p:
+#         - Yet another swipte game... in a mysterious world...
+#         - "Discover the first Chapter, it's free !"
+#
+# credits:
+#     - name:
+#         - value: Music and sound effects by
+#         - value: Velvet Coffee
+#           link: https://www.facebook.com/velvetcoffeemusic
+#       type: asset
+#       add-margin-top: true
+#       image:
+#         url: common/velvetcoffee.png
+#         link: https://www.facebook.com/velvetcoffeemusic
+#
+#     - name:
+#       type: asset
+#       texts:
+#         - value: Squares
+#           link: "http://thenounproject.com/noun/squares/#icon-No15348"
+#         - value: designed by
+#         - value: SuperAtic LABS
+#           link: http://thenounproject.com/SuperAtic
