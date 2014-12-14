@@ -3,7 +3,7 @@ highlighter: null
 permalink: /:title
 
 url:
-baseurl: /asd
+baseurl:
 
 redcarpet:
   extensions: [strikethrough, tables]
