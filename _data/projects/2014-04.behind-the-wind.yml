@@ -29,7 +29,8 @@ descriptions:
       subtitle: On your favorite tablet or mobile (iOs/Android)
       image: projects/behind-the-wind/devices.png
       p:
-        - Yet another swipte game... in a mysterious world...
+        - Yet another swipe game...
+        - ... in a mysterious world...
         - "Discover the first Chapter, it's free !"
 
 #----------------------------------------------------

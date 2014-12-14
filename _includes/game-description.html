@@ -1,11 +1,13 @@
 
+{% include find-project.html %}
+
 {% if include.num != null %}
     {% assign num = include.num %}
 {% else %}
     {% assign num = 0 %}
 {% endif %}
 
-{% assign content = site.data.projects[page.id].descriptions[num] %}
+{% assign content = project.descriptions[num] %}
 
 <div class="row gutters span_12">
     <section class="col span_12 highlight center">
@@ -23,9 +25,17 @@
             <p class="area-centered">{{p}}</p>
         {% endfor %}
 
+        {% if content.li != null %}
+            <ul class="description-list">
+                {% for li in content.li %}
+                <li class="add-small-margin-top">{{li}}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
         {% if content.button != null %}
             {% assign button = content.button %}
-            <div class="area-centered">
+            <div class="area-centered add-small-margin-top">
               <a class="button project-details" href="{{content.button.link}}">{{content.button.name}}</a>
             </div>
         {% endif %}

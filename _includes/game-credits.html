@@ -1,5 +1,6 @@
 
-{% assign credits = site.data.projects[page.id].credits %}
+{% include find-project.html %}
+{% assign credits = project.credits %}
 
 <section class="highlight row gutters span_12 center">
     <header class="add-margin-bottom">

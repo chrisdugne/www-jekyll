@@ -1,0 +1,6 @@
+
+{% for project_hash in site.data.projects %}
+    {% if page.id == project_hash[1].overview.id %}
+        {% assign project = project_hash[1] %}
+    {% endif %}
+{% endfor %}
