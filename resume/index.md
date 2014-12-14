@@ -6,15 +6,15 @@ logo: chris.jpg
 
 <div class="resume-tools highlight">
   <div>
-    <input type="radio" class="option-input radio" name="example" checked/>
+    <input type="radio" class="radio" name="info" value="part1" checked/>
     Roles + Dates
   </div>
   <div>
-    <input type="radio" class="option-input radio" name="example" />
+    <input type="radio" class="radio" name="info" value="part2" />
     Technology
   </div>
   <div>
-    <input type="radio" class="option-input radio" name="example" />
+    <input type="radio" class="radio" name="info" value="part3" />
     Team
   </div>
 </div>
