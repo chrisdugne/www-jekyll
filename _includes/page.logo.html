@@ -1,6 +1,6 @@
-{% if page.logo %}
+{% if page.logo != null %}
     <a class="project-logo in-header" title="{{ site.data.brume.name }}"
-     style="background-image: url({{site.baseurl}}/public/images/{{page.logo}}"></a>
+     style="background-image: url({{site.baseurl}}/public/images/{{page.logo}});"></a>
 
 {% else %}
     <a class="project-logo in-header" title="{{ site.data.brume.name }}"
