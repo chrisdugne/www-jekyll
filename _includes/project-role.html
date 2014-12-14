@@ -1,0 +1,32 @@
+
+{% if overview == null %}
+    {% include find-project.html %}
+    {% assign overview = project.overview %}
+{% endif %}
+
+{% if include.fixed != null %}
+<div class="fixed-roles">
+    <a class="project-logo in-roles" title="{{ site.data.brume.name }}"
+     style="background-image: url({{site.baseurl}}/public/images/projects/{{page.id}}/logo.250.jpg"></a>
+{% else %}
+<div class="col span_4">
+{% endif %}
+    <div class="part1">
+        {% for role in overview.roles %}
+          <div class="role">{{role}}</div>
+        {% endfor %}
+
+        <div class="project-dates">{{overview.dates}}</div>
+        <div class="duration">{{overview.duration}}</div>
+
+        {% if overview.status == 'ongoing' %}
+          <div class="contributing">Still contributing !</div>
+        {% endif %}
+    </div>
+    <div class="part2">
+        part2
+    </div>
+    <div class="part3">
+        part3
+    </div>
+</div>

@@ -194,6 +194,49 @@ footer {
   }
 }
 
+.resume-tools {
+  position: fixed;
+  z-index: 1;
+  padding: 15px;
+  right: 25px;
+  top: 0px;
+  line-height: 2;
+}
+
+.fixed-roles .part1,
+.fixed-roles .part2,
+.fixed-roles .part3,
+{
+  position: fixed;
+  z-index: 1;
+  padding: 15px;
+  right: 25px;
+  top: 25px;
+  line-height: 2;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(65, 65, 65);
+  -webkit-box-shadow: 0 0 12px 1px #bbb;
+  box-shadow: 0 0 12px 1px #bbb;
+}
+
+.part1 {
+  position: fixed;
+  right: 35px;
+}
+
+.part2 {
+  display: none;
+  position: fixed;
+  right: 35px;
+}
+
+.part3 {
+  display: none;
+  position: fixed;
+  right: 35px;
+}
+
 .home-year {
   position: absolute;
   left: 50%;
@@ -341,6 +384,19 @@ footer {
 
   &.in-header {
     margin-top: 20px;
+  }
+
+  &.in-roles {
+    position: fixed;
+    top: -5px;
+    right: 15px;
+    height: 20px;
+    width: 20px!important;
+    background-size: 25px 25px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0 0 3px 1px #222;
+    box-shadow: 0 0 3px 1px #222;
+    z-index: 2;
   }
 }
 

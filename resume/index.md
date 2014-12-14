@@ -4,6 +4,21 @@ title: Resume
 logo: chris.jpg
 ---
 
+<div class="resume-tools highlight">
+  <div>
+    <input type="radio" class="option-input radio" name="example" checked/>
+    Roles + Dates
+  </div>
+  <div>
+    <input type="radio" class="option-input radio" name="example" />
+    Technology
+  </div>
+  <div>
+    <input type="radio" class="option-input radio" name="example" />
+    Team
+  </div>
+</div>
+
 {% assign currentYear = 0 %}
 
 <section class="archive">
@@ -20,10 +35,10 @@ Some lasted more than one year, so I've chosen the year during which there were 
 </div>
 
 {% for project_hash in site.data.projects reversed %}
-{% assign project = project_hash[1].overview %}
+{% assign overview = project_hash[1].overview %}
 
-{% if project.year != currentYear %}
-  {% assign currentYear = project.year %}
+{% if overview.year != currentYear %}
+  {% assign currentYear = overview.year %}
   {% assign newYear = true %}
 {% else %}
   {% assign newYear = false %}
@@ -39,31 +54,20 @@ Some lasted more than one year, so I've chosen the year during which there were 
 
       <h2 class="post-year col span_1">
       {% if newYear %}
-        {{project.year}}
+        {{overview.year}}
       {% endif %}
       </h2>
 
       <div class="col span_3">
-        <div class="project-logo in-row" style="background-image: url({{site.baseurl}}/public/images/projects/{{project.id}}/logo.250.jpg);">
+        <div class="project-logo in-row" style="background-image: url({{site.baseurl}}/public/images/projects/{{overview.id}}/logo.250.jpg);">
        </div>
       </div>
 
       <div class="col span_4">
-          <a class="button project-details" href="/projects/{{project.id}}">{{project.title}}</a>
+          <a class="button project-details" href="/projects/{{overview.id}}">{{overview.title}}</a>
       </div>
 
-      <div class="col span_4">
-        {% for role in project.roles %}
-          <div class="role">{{role}}</div>
-        {% endfor %}
-        <div class="project-dates">{{project.dates}}</div>
-        <div class="duration">{{project.duration}}</div>
-
-        {% if project.status == 'ongoing' %}
-          <div class="contributing">Still contributing !</div>
-        {% endif %}
-      </div>
-
+      {% include project-role.html %}
 
   </div>
 </div>
