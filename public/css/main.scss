@@ -220,21 +220,26 @@ footer {
   box-shadow: 0 0 12px 1px #bbb;
 }
 
-.part1 {
+.role-part {
   position: fixed;
   right: 35px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 500ms ease-out, visibility 0s ease-out 500ms;
+  -moz-transition: opacity 500ms ease-out, visibility 0s ease-out 500ms;
+  -ms-transition: opacity 500ms ease-out, visibility 0s ease-out 500ms;
+  -o-transition: opacity 500ms ease-out, visibility 0s ease-out 500ms;
+  transition: opacity 500ms ease-out, visibility 0s ease-out 500ms;
 }
 
-.part2 {
-  display: none;
-  position: fixed;
-  right: 35px;
-}
-
-.part3 {
-  display: none;
-  position: fixed;
-  right: 35px;
+.role-part.active {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 500ms ease-out, visibility 0s ease-out;
+  -moz-transition: opacity 500ms ease-out, visibility 0s ease-out;
+  -ms-transition: opacity 500ms ease-out, visibility 0s ease-out;
+  -o-transition: opacity 500ms ease-out, visibility 0s ease-out;
+  transition: opacity 500ms ease-out, visibility 0s ease-out;
 }
 
 .home-year {
