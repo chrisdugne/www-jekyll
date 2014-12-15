@@ -8,67 +8,105 @@
     <a class="project-logo in-roles" title="{{ site.data.brume.name }}"
      style="background-image: url({{site.baseurl}}/public/images/projects/{{page.id}}/logo.250.jpg"></a>
 
-    <div class="content-title">{{overview.title}}</div>
 
-    {% for role in overview.roles %}
-      <div class="role">{{role}}</div>
-    {% endfor %}
+     <ul class="tabs">
+        <li>
+            <input type="radio" name="tabs" id="tab1" checked />
+            <label for="tab1"><img src="{{site.baseurl}}/public/images/common/me.png" style="height:30px"></label>
+            <div id="tab-content1" class="tab-content">
 
-    <div class="project-dates">{{overview.dates}}</div>
-    <div class="duration">{{overview.duration}}</div>
+                <div class="content-title">{{overview.title}}</div>
 
-    {% if overview.status == 'ongoing' %}
-      <div class="contributing">Still contributing !</div>
-    {% endif %}
+                {% for role in overview.roles %}
+                  <div class="role">{{role}}</div>
+                {% endfor %}
 
-    <div class="content-title">Technologies</div>
+                <div class="project-dates">{{overview.dates}}</div>
+                <div class="duration">{{overview.duration}}</div>
 
-    {% if overview.techno.front %}
-        <div class="techno-group">Front-end</div>
-        {% for techno in overview.techno.front %}
-          <div class="techno-name">{{techno}}</div>
-        {% endfor %}
-    {% endif %}
+                {% if overview.status == 'ongoing' %}
+                  <div class="contributing">Still contributing !</div>
+                {% endif %}
 
-    {% if overview.techno.mobile %}
-        <div class="techno-group">Mobile</div>
-        {% for techno in overview.techno.mobile %}
-          <div class="techno-name">{{techno}}</div>
-        {% endfor %}
-    {% endif %}
+            </div>
+        </li>
 
-    {% if overview.techno.back %}
-        <div class="techno-group">Back-end</div>
-        {% for techno in overview.techno.back %}
-          <div class="techno-name">{{techno}}</div>
-        {% endfor %}
-    {% endif %}
+        <li>
+            <input type="radio" name="tabs" id="tab2" />
+            <label for="tab2"><img src="{{site.baseurl}}/public/images/common/settings.png" style="height:30px"></label>
+            <div id="tab-content2" class="tab-content">
 
-    <div class="content-title">Team</div>
+                <div class="content-title">Technologies</div>
 
-    {% if overview.team.dev %}
-        <div>
-            <div class="col span_9 team-group">Dev :</div>
-            <div class="col span_3 team-number">{{overview.team.dev}}</div>
-        </div>
-    {% endif %}
-    {% if overview.team.qa %}
-         <div>
-            <div class="col span_9 team-group">QA :</div>
-            <div class="col span_3 team-number">{{overview.team.qa}}</div>
-        </div>
-    {% endif %}
-    {% if overview.team.design %}
-        <div>
-            <div class="col span_9 team-group">UX/UI :</div>
-            <div class="col span_3 team-number">{{overview.team.design}}</div>
-        </div>
-    {% endif %}
-    {% if overview.team.marketing %}
-        <div>
-            <div class="col span_9 team-group">MKT :</div>
-            <div class="col span_3 team-number">{{overview.team.marketing}}</div>
-        </div>
-    {% endif %}
+                {% if overview.techno.front %}
+                    <div class="techno-group">Front-end</div>
+                    {% for techno in overview.techno.front %}
+                      <div class="techno-name">{{techno}}</div>
+                    {% endfor %}
+                {% endif %}
+
+                {% if overview.techno.mobile %}
+                    <div class="techno-group">Mobile</div>
+                    {% for techno in overview.techno.mobile %}
+                      <div class="techno-name">{{techno}}</div>
+                    {% endfor %}
+                {% endif %}
+
+                {% if overview.techno.back %}
+                    <div class="techno-group">Back-end</div>
+                    {% for techno in overview.techno.back %}
+                      <div class="techno-name">{{techno}}</div>
+                    {% endfor %}
+                {% endif %}
+
+            </div>
+        </li>
+
+        <li>
+            <input type="radio" name="tabs" id="tab3" />
+            <label for="tab3"><img class="tab-logo" src="{{site.baseurl}}/public/images/common/team.png"></label>
+            <div id="tab-content3" class="tab-content">
+
+                <div class="content-title">Team</div>
+
+                {% if overview.team.dev %}
+                    {% assign name = 'Development :' %}
+                    {% assign num = overview.team.dev %}
+                    {% include team-group.html %}
+                {% endif %}
+                {% if overview.team.qa %}
+                    {% assign name = 'Q.A. :' %}
+                    {% assign num = overview.team.qa %}
+                    {% include team-group.html %}
+                {% endif %}
+                {% if overview.team.design %}
+                    {% assign name = 'Design/UX/UI :' %}
+                    {% assign num = overview.team.design %}
+                    {% include team-group.html %}
+                {% endif %}
+                {% if overview.team.marketing %}
+                    {% assign name = 'Marketing :' %}
+                    {% assign num = overview.team.marketing %}
+                    {% include team-group.html %}
+                {% endif %}
+
+            </div>
+        </li>
+
+        <li>
+            <input type="radio" name="tabs" id="tab4" />
+            <label for="tab4"><img src="{{site.baseurl}}/public/images/common/metrics.png" style="height:30px"></label>
+            <div id="tab-content4" class="tab-content">
+
+                <div class="content-title">Metrics</div>
+
+                {% for data in overview.metrics %}
+                    {% include metrics.html %}
+                {% endfor %}
+
+            </div>
+        </li>
+    </ul>
+
 
 </div>

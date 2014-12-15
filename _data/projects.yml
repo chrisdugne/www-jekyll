@@ -53,6 +53,15 @@
     status: ongoing
     dates: since September 2013
     duration: (1 year 4 months)
+    metrics:
+      - name : "Market place"
+        percent : 12
+      - name : "Technology"
+        percent : 32
+      - name : "Team cohesion"
+        percent : 22
+      - name : "Team knowloedg"
+        percent : 62
 
 #-------------------------------------------------------------------------------
 
