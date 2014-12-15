@@ -6,36 +6,35 @@
     <header class="add-margin-bottom">
     <h2>Credits</h2>
     </header>
-    {% for attribution in credits %}
-        <div {% if attribution.add-margin-top  %} class="add-margin-top" {% endif %}>
-
-            <p class="area-centered">
-            {% for text in attribution.name %}
-                {% if text.link != null %}
-                    <a href="{{text.link}}" target="_blank">{{text.value}}</a>
-                {% else %}
-                    {{text.value}}
-                {% endif %}
-            {% endfor %}
-            </p>
-
-            {% if attribution.image != null %}
-            <a class="image-link" href="{{attribution.image.link}}" target="blank">
-                <img src="{{site.baseurl}}/public/images/{{attribution.image.url}}">
-            </a>
+{% for attribution in credits %}
+<div {% if attribution.add-margin-top  %} class="add-margin-top" {% endif %}>
+    <p class="area-centered">
+        {% for text in attribution.name %}
+            {% if text.link != null %}
+                <a href="{{text.link}}" target="_blank">{{text.value}}</a>
+            {% else %}
+                {{text.value}}
             {% endif %}
+        {% endfor %}
+    </p>
 
-            <p class="area-centered">
-            {% for text in attribution.texts %}
-                {% if text.link != null %}
-                    <a href="{{text.link}}" target="_blank">{{text.value}}</a>
-                {% else %}
-                    {{text.value}}
-                {% endif %}
-            {% endfor %}
-            </p>
+    {% if attribution.image != null %}
+    <a class="image-link" href="{{attribution.image.link}}" target="blank">
+        <img src="{{site.baseurl}}/public/images/{{attribution.image.url}}">
+    </a>
+    {% endif %}
 
-        </div>
+    <p class="area-centered">
+    {% for text in attribution.texts %}
+        {% if text.link != null %}
+            <a href="{{text.link}}" target="_blank">{{text.value}}</a>
+        {% else %}
+            {{text.value}}
+        {% endif %}
     {% endfor %}
+    </p>
+
+</div>
+{% endfor %}
 
 </section>

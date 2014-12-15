@@ -8,8 +8,8 @@ logo: projects/tribes-and-khans/logo.250.jpg
 
 <section class="archive">
 
-{% for project_hash in site.data.projects reversed %}
-{% assign overview = project_hash[1].overview %}
+{% for project in site.data.projects %}
+{% assign overview = project.overview %}
 
 {% if overview.category != "games" %} {% continue %} {% endif %}
 

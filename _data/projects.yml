@@ -1,0 +1,840 @@
+# overview:
+#   category: partnership/games/freelance
+#   id: xx-xx-xx
+#   title: XX XX XX
+#   year: 2014
+#   month: 09
+#   roles:
+#     - Co-Founder
+#     - Full Stack Developer
+#   team:
+#     dev:
+#     design:
+#     marketing:
+#     tests:
+#   techno:
+#     back:
+#     front:
+#     mobile:
+#   dates: October 2012 – Present
+#   duration: (2 years 3 months)
+#   status: ongoing/complete
+#
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Adillions
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: partnership
+    id: adillions
+    title: Adillions
+    year: 2014
+    month: 09
+    roles:
+      - Co-Founder / CTO
+      - Full Stack Developer
+    team:
+      dev: 2
+      design: 1
+      marketing: 1
+    techno:
+      back:
+        - Node.js
+      front:
+        - Backbone.js
+        - Marionette.js
+      mobile:
+        - Lua
+        - Corona SDK
+    status: ongoing
+    dates: since September 2013
+    duration: (1 year 4 months)
+
+#-------------------------------------------------------------------------------
+
+  descriptions:
+    - title: Free Sweepstake
+      subtitle: Funded by advertisement
+      image: projects/adillions/mobile.jpg
+      p:
+
+    - title: Full-stack Developer
+      subtitle: Mobile / Web / Back-end
+      image:
+      p:
+        - "I co-founded Adillions as full-stack developer to build a disruptive new sweepstake."
+        - "I've build the whole platform to launch the game :"
+      li:
+        - "The mobile game (iOS + Android)"
+        - "The server side and its API for our client applications"
+        - "Currently working on the web client application"
+        - "Dev, stage and production platforms using Heroku"
+        - "Social networks integration"
+        - "Evaluated and set up Google analytics to track users over the journey on the App."
+      button:
+        link: http://adillions.com
+        name: www.adillions.com
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Behind The Wind
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: games
+    id: behind-the-wind
+    title: Behind The Wind
+    year: 2014
+    month: 04
+    roles:
+      - Mobile Developer
+      - Game Designer
+    team:
+      dev: 1
+    techno:
+      back:
+      front:
+      mobile:
+        - Lua
+        - Corona SDK
+    status: complete
+    dates: September 2013 - April 2014
+    duration: (2 months over this period)
+
+#-------------------------------------------------------------------------------
+
+  descriptions:
+    - title: 2D Mobile Game
+      subtitle: On your favorite tablet or mobile (iOs/Android)
+      image: projects/behind-the-wind/devices.png
+      p:
+        - Yet another swipe game...
+        - ... in a mysterious world...
+        - "Discover the first Chapter, it's free !"
+
+#-------------------------------------------------------------------------------
+
+  credits:
+    - name:
+        - value: Corona SDK
+          link: http://www.coronalabs.com/
+        - value: ❤ Lua ❤
+      type: tool
+      add-margin-top: true
+      image:
+        url: common/corona.png
+        link: http://www.coronalabs.com/
+
+    - name:
+        - value: Thanks
+        - value: Gymbyl Coding
+          link: http://gymbyl.com
+        - value: ❤ for this awesome effects lib !
+      type: tool
+      add-margin-top: true
+      image:
+        url: common/cbeffects.png
+        link: http://gymbyl.com
+
+    - name:
+        - value: Music and sound effects by
+        - value: Velvet Coffee
+          link: https://www.facebook.com/velvetcoffeemusic
+      type: asset
+      add-margin-top: true
+      image:
+        url: common/velvetcoffee.png
+        link: https://www.facebook.com/velvetcoffeemusic
+
+    - name:
+      type: asset
+      add-margin-top: true
+      texts:
+        - value: Tiles from
+        - value: Kenney
+          link: http://www.kenney.nl/
+
+    - name:
+      type: asset
+      texts:
+        - value: Trees from
+        - value: Reiner's tilesets
+          link: http://www.reinerstilesets.de/
+
+    - name:
+      type: asset
+      add-margin-top: true
+      texts:
+        - value: The game's icons come from
+        - value: The Noun Project
+          link: http://thenounproject.com/
+
+    - name:
+      type: asset
+      add-margin-top: true
+      texts:
+        - value: Play
+          link: "http://thenounproject.com/noun/play/#icon-No8552"
+        - value: designed by
+        - value: Jardson Araújo
+          link: http://thenounproject.com/jardsonaraujo
+
+    - name:
+      type: asset
+      texts:
+        - value: Squares
+          link: "http://thenounproject.com/noun/squares/#icon-No15348"
+        - value: designed by
+        - value: SuperAtic LABS
+          link: http://thenounproject.com/SuperAtic
+
+    - name:
+      type: asset
+      texts:
+        - value: Alarm Clock
+          link: "http://thenounproject.com/term/alarm-clock/11222/"
+        - value: designed by
+        - value: John Caserta
+          link: http://thenounproject.com/johncaserta
+
+    - name:
+      type: asset
+      texts:
+        - value: Settings
+          link: "http://thenounproject.com/noun/settings/#icon-No16372"
+        - value: designed by
+        - value: Luis Rodrigues
+          link: http://thenounproject.com/lmf.rodrigues
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Photobox MStudio
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: freelance
+    id: mstudio
+    title: Photobox MStudio
+    year: 2014
+    month: 01
+    roles:
+      - Front-end Developer
+    team:
+      dev: 6
+      design: 1
+    techno:
+      back:
+        - Node.js
+      front:
+        - Backbone.js
+        - Marionette.js
+        - HTML/CSS
+    status: complete
+    dates: December 2013 - November 2014
+    duration: (1 year)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Kodo
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: games
+    id: kodo
+    title: Kodo
+    year: 2013
+    month: 08
+    roles: 'Game Designer, Mobile Developer'
+    dev-team: 1
+    design-team: 0
+    mark-team: 0
+    status: complete
+    roles:
+      - Mobile Developer
+      - Game Designer
+    team:
+      dev: 1
+    techno:
+      back:
+      front:
+      mobile:
+        - Lua
+        - Corona SDK
+    status: complete
+    dates: August 2013
+    duration: (2 weeks)
+
+  descriptions:
+      - title: 2D Mobile Game
+        subtitle: Quick evolution from The Lightning Planet
+        image: projects/kodo/kodo.png
+        p:
+          - Can you feed the Big Kodo with the good small Kodos at the right time ?
+
+      - title: Speed Game
+        subtitle: Test your mental agility as the game speeds up.
+        image: projects/kodo/kodo.phone.png
+        p:
+          - "Play now, it's free !"
+
+  credits:
+      - name: Corona SDK
+        type: tool
+        add-margin-top: true
+        image:
+          url: common/corona.png
+          link: http://www.coronalabs.com/
+        texts:
+          - value: ❤ Lua ❤
+
+      - name: Gymbyl Coding
+        type: tool
+        add-margin-top: true
+        image:
+          url: common/cbeffects.png
+          link: http://gymbyl.com
+        texts:
+          - value: Thanks Gymbyl Coding for this awesome effects lib !
+
+      - name: Velvet Coffee
+        type: asset
+        add-margin-top: true
+        image:
+          url: common/velvetcoffee.png
+          link: https://www.facebook.com/velvetcoffeemusic
+        texts:
+          - value: Music and sound effects by Velvet Coffee
+
+      - name:
+        type: asset
+        add-margin-top: true
+        texts:
+          - value: The game's icons come from
+          - value: The Noun Project
+            link: http://thenounproject.com/
+
+      - name:
+        type: asset
+        add-margin-top: true
+        texts:
+        - value: Ghost
+          link: "http://thenounproject.com/noun/ghost/#icon-No3941"
+        - value: designed by
+        - value: Paulo Volkova
+          link: "http://thenounproject.com/Paulo%20Volkova"
+
+      - name:
+        type: asset
+        texts:
+        - value: Octopus
+          link: "http://thenounproject.com/noun/octopus/#icon-No4005"
+        - value: designed by
+        - value: Paulo Volkova
+          link: "http://thenounproject.com/Paulo%20Volkova"
+
+      - name:
+        type: asset
+        texts:
+        - value: Monster
+          link: "http://thenounproject.com/noun/monster/#icon-No5088"
+        - value: designed by
+        - value: Benpoulax
+          link: "http://thenounproject.com/Benpoulax"
+
+      - name:
+        type: asset
+        texts:
+        - value: Monster
+          link: "http://thenounproject.com/noun/monster/#icon-No2113"
+        - value: designed by
+        - value: Bryan Anderson
+          link: "http://thenounproject.com/bdander"
+
+      - name:
+        type: asset
+        texts:
+        - value: Eyes
+          link: "http://thenounproject.com/noun/eyes/#icon-No16474"
+        - value: designed by
+        - value: Benjamin Orlovski
+          link: "http://thenounproject.com/misirlou"
+
+      - name:
+        type: asset
+        texts:
+        - value: Ninja
+          link: "http://thenounproject.com/noun/ninja/#icon-No16846"
+        - value: designed by
+        - value: Ridzal Zainal
+          link: "http://thenounproject.com/ridzal.zainal"
+
+      - name:
+        type: asset
+        texts:
+        - value: Skull and Crossbones
+          link: "http://thenounproject.com/noun/skull-and-crossbones/#icon-No1962"
+        - value: designed by
+        - value: Andrew Cameron
+          link: "http://thenounproject.com/CrocodileJock"
+
+      - name:
+        type: asset
+        texts:
+        - value: Play
+          link: "http://thenounproject.com/noun/play/#icon-No6506"
+        - value: designed by
+        - value: Mateo Zlatar
+          link: "http://thenounproject.com/mateozlatar"
+
+      - name:
+        type: asset
+        texts:
+        - value: Settings
+          link: "http://thenounproject.com/noun/settings/#icon-No16372"
+        - value: designed by
+        - value: Luis Rodrigues
+          link: "http://thenounproject.com/lmf.rodrigues"
+
+      - name:
+        type: asset
+        texts:
+        - value: Play
+          link: "http://thenounproject.com/noun/play/#icon-No8552"
+        - value: designed by
+        - value: Jardson Araújo
+          link: "http://thenounproject.com/jardsonaraujo"
+
+      - name:
+        type: asset
+        texts:
+        - value: Coffee
+          link: "http://thenounproject.com/noun/coffee/#icon-No19813"
+        - value: designed by
+        - value: Roman Trilo-Denysyuk
+          link: "http://thenounproject.com/triloroman"
+
+      - name:
+        type: asset
+        texts:
+        - value: Plus
+          link: "http://thenounproject.com/noun/plus/#icon-No2876"
+        - value: designed by
+        - value: P.J. Onori
+          link: "http://thenounproject.com/somerandomdude"
+
+
+
+
+#-------------------------------------------------------------------------------
+#  The Lightning Planet
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: games
+    id: the-lightning-planet
+    title: The Lightning Planet
+    year: 2013
+    month: 07
+    roles: 'Game Designer, Mobile Developer'
+    dev-team: 1
+    design-team: 0
+    mark-team: 0
+    status: complete
+    roles:
+      - Mobile Developer
+      - Game Designer
+    team:
+      dev: 1
+    techno:
+      back:
+      front:
+      mobile:
+        - Lua
+        - Corona SDK
+    status: complete
+    dates: July - August 2013
+    duration: (2 months)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Maperial
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: partnership
+    id: maperial
+    title: Maperial
+    year: 2013
+    month: 06
+    roles:
+      - Co-Founder
+      - Front-end Developer
+    team:
+      dev: 3
+    techno:
+      front:
+        - JavaScript
+        - HTML5
+    status: ongoing
+    dates: since October 2013
+    duration: (2 years 3 months)
+
+#-------------------------------------------------------------------------------
+# http://diligis.herokuapp.com/
+- overview:
+    category: partnership
+    id: diligis
+    title: Diligis
+    year: 2013
+    month: 05
+    roles:
+      - Full Stack Developer
+      - Mobile Developer
+    team:
+      dev: 1
+      marketing: 1
+    techno:
+      back:
+        - Play! Framework
+        - PostgreSQL
+      mobile:
+        - Lua
+        - Corona SDK
+    status: complete
+    dates: April – June 2013
+    duration: (3 months)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Cadeaux
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: partnership
+    id: cadeaux
+    title: Cadeaux
+    year: 2012
+    month: 09
+    roles:
+      - Full Stack Developer
+    team:
+      dev: 1
+      marketing: 1
+    techno:
+      back:
+        - Play! Framework
+        - Facebook API
+      front:
+        - JavaScript
+        - HTML/CSS
+    status: complete
+    dates: August – October 2012
+    duration: (3 months)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  The Band
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: games
+    id: the-band
+    title: The Band
+    year: 2012
+    month: 04
+    roles:
+      - Full Stack Developer
+      - Game Designer
+    team:
+      dev: 1
+      design: 1
+    techno:
+      back:
+        - Java
+        - Spring framework
+        - Hibernate
+      front:
+        - JavaScript
+        - HTML/CSS
+    status: complete
+    dates: April – May 2012
+    duration: (2 months)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Eram Assortiment
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: freelance
+    id: assort
+    title: Eram Assortiment
+    year: 2012
+    month: 01
+    roles:
+      - Front-end Developer
+    team:
+      dev: 4
+    techno:
+      front:
+        - Flex 4
+    status: complete
+    dates: March 2011 – September 2012
+    duration: (1 year 6 months)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Tribes And Khans
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: games
+    id: tribes-and-khans
+    title: Tribes And Khans
+    year: 2011
+    month: 08
+    roles:
+      - Full Stack Developer
+      - Game Designer
+    team:
+      dev: 1
+      design: 1
+    techno:
+      back:
+        - Java
+        - Spring Framework
+        - Google AppEngine
+      front:
+        - Flex 4
+    status: complete
+    dates: December 2010 - July 2012
+    duration: (1 year 7 months)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Fools
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: games
+    id: fools
+    title: Fools
+    year: 2010
+    month: 12
+    roles:
+      - Full Stack Developer
+      - Game Designer
+    team:
+      dev: 1
+    techno:
+      back:
+        - Facebook Graph API
+      front:
+        - Flex 3
+    status: complete
+    dates: August - October 2010
+    duration: (3 months)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Robeco
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: freelance
+    id: robeco
+    title: Robeco
+    year: 2010
+    month: 11
+    roles:
+      - Front-end Developer
+    team:
+      dev: 3
+    techno:
+      back:
+        - PHP5
+      front:
+        - Flex 4
+    status: complete
+    dates: October - December 2010
+    duration: (3 months)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Skooairs
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: games
+    id: skooairs
+    title: Skooairs
+    year: 2010
+    month: 10
+    roles:
+      - Full Stack Developer
+      - Game Designer
+    team:
+      dev: 1
+    techno:
+      back:
+        - Java
+        - Spring Framework
+        - Google AppEngine
+      front:
+        - Flex 3
+    status: complete
+    dates: July - August 2010
+    duration: (2 months)
+
+#-------------------------------------------------------------------------------
+# Serendi --> c'etait plutot debut 2010 a priori !
+- overview:
+    category: partnership
+    id: serendi
+    title: Serendi prototype
+    year: 2009
+    month: 10
+    roles:
+      - Front-end Developer
+    team:
+      dev: 3
+      marketing: 2
+    techno:
+      front:
+        - Flex 3
+    status: complete
+    dates: December 2009 - February 2010
+    duration: (3 months)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Uralys
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: games
+    id: uralys
+    title: Uralys
+    year: 2009
+    month: 06
+    roles:
+      - Full Stack Developer
+      - Game Designer
+    team:
+      dev: 1
+    techno:
+      back:
+        - Java
+        - Spring Framework
+        - Google AppEngine
+      front:
+        - Flex 3
+    status: complete
+    dates: January 2008 - June 2010
+    duration: (2 years 6 months)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Ads-Click
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: employee
+    id: ads-click
+    title: Ads-Click
+    year: 2008
+    month: 06
+    roles:
+      - Back-end Developer
+    team:
+      dev: 6
+      tests: 3
+      design: 2
+    techno:
+      back:
+        - Java
+    status: complete
+    dates: October 2006 - December 2009
+    duration: (3 years 3 months)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Blub
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: games
+    id: blub
+    title: Blub
+    year: 2006
+    month: 07
+    roles:
+      - Game Developer
+    team:
+      dev: 1
+    techno:
+      front:
+        - Java
+    status: complete
+    dates: July 2006
+    duration: (1 month)
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Aspects Software
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: internship
+    id: aspects
+    title: Aspects Software
+    year: 2006
+    month: 02
+    roles:
+      - Intern
+      - Back-end Developer
+    team:
+      dev: 1
+      tests: 1
+    techno:
+      back:
+        - Java
+        - Hibernate
+    status: complete
+    dates: February 2006 - July 2006
+    duration: (6 months)
+
