@@ -11,7 +11,7 @@
 {% else %}
 <div class="col span_4">
 {% endif %}
-    <div class="role-part part1 active">
+    <div class="role-part part1">
         {% for role in overview.roles %}
           <div class="role">{{role}}</div>
         {% endfor %}
@@ -23,10 +23,55 @@
           <div class="contributing">Still contributing !</div>
         {% endif %}
     </div>
+
     <div class="role-part part2">
-        role-part part2
+        {% if overview.techno.front %}
+            <div class="techno-group">Front-end</div>
+            {% for techno in overview.techno.front %}
+              <div class="techno-name">{{techno}}</div>
+            {% endfor %}
+        {% endif %}
+
+        {% if overview.techno.mobile %}
+            <div class="techno-group">Mobile</div>
+            {% for techno in overview.techno.mobile %}
+              <div class="techno-name">{{techno}}</div>
+            {% endfor %}
+        {% endif %}
+
+        {% if overview.techno.back %}
+            <div class="techno-group">Back-end</div>
+            {% for techno in overview.techno.back %}
+              <div class="techno-name">{{techno}}</div>
+            {% endfor %}
+        {% endif %}
     </div>
-    <div class="role-part part3">
-        part3
+
+    <div class="role-part part3 active">
+        {% if overview.team.dev %}
+            <div>
+                <div class="col span_9 team-group">Dev :</div>
+                <div class="col span_3 team-number">{{overview.team.dev}}</div>
+            </div>
+        {% endif %}
+        {% if overview.team.qa %}
+             <div>
+                <div class="col span_9 team-group">QA :</div>
+                <div class="col span_3 team-number">{{overview.team.qa}}</div>
+            </div>
+        {% endif %}
+        {% if overview.team.design %}
+            <div>
+                <div class="col span_9 team-group">UX/UI :</div>
+                <div class="col span_3 team-number">{{overview.team.design}}</div>
+            </div>
+        {% endif %}
+        {% if overview.team.marketing %}
+            <div>
+                <div class="col span_9 team-group">MKT :</div>
+                <div class="col span_3 team-number">{{overview.team.marketing}}</div>
+            </div>
+        {% endif %}
     </div>
+
 </div>

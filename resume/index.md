@@ -7,15 +7,15 @@ logo: chris.jpg
 <div class="resume-tools highlight">
   <div>
     <input type="radio" class="radio" name="info" value="1" checked/>
-    Role, dates
+    Roles, dates
   </div>
   <div>
     <input type="radio" class="radio" name="info" value="2" />
-    Technology
+    Technologies
   </div>
   <div>
     <input type="radio" class="radio" name="info" value="3" />
-    Team
+    Teams
   </div>
 </div>
 

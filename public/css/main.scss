@@ -220,6 +220,18 @@ footer {
   box-shadow: 0 0 12px 1px #bbb;
 }
 
+.part2 {
+  width: 120px;
+  right: -20px !important;
+  margin-top: -11px;
+}
+
+.part3 {
+  width: 75px;
+  right: 10px !important;
+  margin-top: 10px;
+}
+
 .role-part {
   position: fixed;
   right: 35px;
@@ -450,6 +462,27 @@ footer {
 
 .project-dates {
   font-size : 12px;
+}
+
+.techno-group {
+  margin-top: 5px;
+  font-size : 12px;
+}
+
+.techno-name {
+  font-size : 12px;
+  margin-top: -5px;
+  color:#888;
+}
+
+.team-group {
+  font-size : 12px;
+}
+
+.team-number {
+  font-size : 12px;
+  text-align: right;
+  color:#888;
 }
 
 .not-found {

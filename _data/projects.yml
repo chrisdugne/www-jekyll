@@ -11,7 +11,7 @@
 #     dev:
 #     design:
 #     marketing:
-#     tests:
+#     qa:
 #   techno:
 #     back:
 #     front:
@@ -39,7 +39,7 @@
       - Full Stack Developer
     team:
       dev: 2
-      design: 1
+      design: 2
       marketing: 1
     techno:
       back:
@@ -78,6 +78,36 @@
       button:
         link: http://adillions.com
         name: www.adillions.com
+
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Photobox MStudio
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: freelance
+    id: mstudio
+    title: Photobox MStudio
+    year: 2014
+    month: 01
+    roles:
+      - Front-end Developer
+      - Freelance
+    team:
+      dev: 7
+      qa: 4
+      design: 1
+    techno:
+      front:
+        - Backbone.js
+        - Marionette.js
+        - HTML/CSS
+    status: complete
+    dates: December 2013 - November 2014
+    duration: (1 year)
 
 
 
@@ -216,31 +246,28 @@
 
 
 #-------------------------------------------------------------------------------
-#  Photobox MStudio
+#  Maperial
 #-------------------------------------------------------------------------------
 
 - overview:
-    category: freelance
-    id: mstudio
-    title: Photobox MStudio
-    year: 2014
-    month: 01
+    category: partnership
+    id: maperial
+    title: Maperial
+    year: 2013
+    month: 06
     roles:
+      - Co-Founder
       - Front-end Developer
-      - Freelance
     team:
-      dev: 6
-      design: 1
+      dev: 3
     techno:
-      back:
-        - Node.js
       front:
-        - Backbone.js
-        - Marionette.js
+        - JavaScript
+        - HTML5
         - HTML/CSS
-    status: complete
-    dates: December 2013 - November 2014
-    duration: (1 year)
+    status: ongoing
+    dates: since October 2013
+    duration: (2 years 3 months)
 
 
 
@@ -468,32 +495,11 @@
 
 
 
-
 #-------------------------------------------------------------------------------
-#  Maperial
-#-------------------------------------------------------------------------------
-
-- overview:
-    category: partnership
-    id: maperial
-    title: Maperial
-    year: 2013
-    month: 06
-    roles:
-      - Co-Founder
-      - Front-end Developer
-    team:
-      dev: 3
-    techno:
-      front:
-        - JavaScript
-        - HTML5
-    status: ongoing
-    dates: since October 2013
-    duration: (2 years 3 months)
-
-#-------------------------------------------------------------------------------
+# Diligis
 # http://diligis.herokuapp.com/
+#-------------------------------------------------------------------------------
+
 - overview:
     category: partnership
     id: diligis
@@ -533,8 +539,8 @@
     roles:
       - Full Stack Developer
     team:
-      dev: 1
-      marketing: 1
+      dev: 2
+      marketing: 3
     techno:
       back:
         - Play! Framework
@@ -634,6 +640,32 @@
 
 
 
+#-------------------------------------------------------------------------------
+# Robeco
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: freelance
+    id: robeco
+    title: Robeco
+    year: 2010
+    month: 11
+    roles:
+      - Front-end Developer
+      - Freelance
+    team:
+      dev: 3
+    techno:
+      back:
+        - PHP5
+      front:
+        - Flex 4
+    status: complete
+    dates: October - December 2010
+    duration: (3 months)
+
+
+
 
 #-------------------------------------------------------------------------------
 #  Fools
@@ -657,33 +689,6 @@
         - Flex 3
     status: complete
     dates: August - October 2010
-    duration: (3 months)
-
-
-
-
-#-------------------------------------------------------------------------------
-# Robeco
-#-------------------------------------------------------------------------------
-
-- overview:
-    category: freelance
-    id: robeco
-    title: Robeco
-    year: 2010
-    month: 11
-    roles:
-      - Front-end Developer
-      - Freelance
-    team:
-      dev: 3
-    techno:
-      back:
-        - PHP5
-      front:
-        - Flex 4
-    status: complete
-    dates: October - December 2010
     duration: (3 months)
 
 
@@ -715,28 +720,6 @@
     dates: July - August 2010
     duration: (2 months)
 
-#-------------------------------------------------------------------------------
-# Serendi --> c'etait plutot debut 2010 a priori !
-- overview:
-    category: partnership
-    id: serendi
-    title: Serendi prototype
-    year: 2009
-    month: 10
-    roles:
-      - Front-end Developer
-    team:
-      dev: 3
-      marketing: 2
-    techno:
-      front:
-        - Flex 3
-    status: complete
-    dates: December 2009 - February 2010
-    duration: (3 months)
-
-
-
 
 #-------------------------------------------------------------------------------
 #  Uralys
@@ -766,6 +749,30 @@
 
 
 
+#-------------------------------------------------------------------------------
+# Serendi --> c'etait plutot debut 2010 a priori !
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: partnership
+    id: serendi
+    title: Serendi prototype
+    year: 2009
+    month: 10
+    roles:
+      - Front-end Developer
+    team:
+      dev: 3
+      marketing: 2
+    techno:
+      front:
+        - Flex 3
+    status: complete
+    dates: December 2009 - February 2010
+    duration: (3 months)
+
+
+
 
 #-------------------------------------------------------------------------------
 #  Ads-Click
@@ -781,7 +788,7 @@
       - Back-end Developer
     team:
       dev: 6
-      tests: 3
+      qa: 3
       design: 2
     techno:
       back:
@@ -832,7 +839,7 @@
       - Back-end Developer
     team:
       dev: 1
-      tests: 1
+      qa: 1
     techno:
       back:
         - Java
