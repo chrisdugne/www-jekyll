@@ -1,5 +1,5 @@
 ---
-layout: game
+layout: project
 logo: projects/kodo/logo.250.jpg
 title: Kodo
 id: kodo

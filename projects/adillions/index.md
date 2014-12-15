@@ -1,5 +1,5 @@
 ---
-layout: game
+layout: project
 logo: projects/adillions/logo.250.jpg
 title: Adillions
 id: adillions

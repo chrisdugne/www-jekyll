@@ -4,14 +4,8 @@
     {% assign overview = project.overview %}
 {% endif %}
 
-{% if include.fixed != null %}
-<div class="fixed-roles">
-    <a class="project-logo in-roles" title="{{ site.data.brume.name }}"
-     style="background-image: url({{site.baseurl}}/public/images/projects/{{page.id}}/logo.250.jpg"></a>
-{% else %}
 <div class="col span_4">
-{% endif %}
-    <div class="role-part part1">
+    <div class="role-part part1 active">
         {% for role in overview.roles %}
           <div class="role">{{role}}</div>
         {% endfor %}
@@ -47,7 +41,7 @@
         {% endif %}
     </div>
 
-    <div class="role-part part3 active">
+    <div class="role-part part3">
         {% if overview.team.dev %}
             <div>
                 <div class="col span_9 team-group">Dev :</div>

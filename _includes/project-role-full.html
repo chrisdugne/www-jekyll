@@ -1,0 +1,74 @@
+
+{% if overview == null %}
+    {% include find-project.html %}
+    {% assign overview = project.overview %}
+{% endif %}
+
+<div class="project-roles-full">
+    <a class="project-logo in-roles" title="{{ site.data.brume.name }}"
+     style="background-image: url({{site.baseurl}}/public/images/projects/{{page.id}}/logo.250.jpg"></a>
+
+    <div class="content-title">{{overview.title}}</div>
+
+    {% for role in overview.roles %}
+      <div class="role">{{role}}</div>
+    {% endfor %}
+
+    <div class="project-dates">{{overview.dates}}</div>
+    <div class="duration">{{overview.duration}}</div>
+
+    {% if overview.status == 'ongoing' %}
+      <div class="contributing">Still contributing !</div>
+    {% endif %}
+
+    <div class="content-title">Technologies</div>
+
+    {% if overview.techno.front %}
+        <div class="techno-group">Front-end</div>
+        {% for techno in overview.techno.front %}
+          <div class="techno-name">{{techno}}</div>
+        {% endfor %}
+    {% endif %}
+
+    {% if overview.techno.mobile %}
+        <div class="techno-group">Mobile</div>
+        {% for techno in overview.techno.mobile %}
+          <div class="techno-name">{{techno}}</div>
+        {% endfor %}
+    {% endif %}
+
+    {% if overview.techno.back %}
+        <div class="techno-group">Back-end</div>
+        {% for techno in overview.techno.back %}
+          <div class="techno-name">{{techno}}</div>
+        {% endfor %}
+    {% endif %}
+
+    <div class="content-title">Team</div>
+
+    {% if overview.team.dev %}
+        <div>
+            <div class="col span_9 team-group">Dev :</div>
+            <div class="col span_3 team-number">{{overview.team.dev}}</div>
+        </div>
+    {% endif %}
+    {% if overview.team.qa %}
+         <div>
+            <div class="col span_9 team-group">QA :</div>
+            <div class="col span_3 team-number">{{overview.team.qa}}</div>
+        </div>
+    {% endif %}
+    {% if overview.team.design %}
+        <div>
+            <div class="col span_9 team-group">UX/UI :</div>
+            <div class="col span_3 team-number">{{overview.team.design}}</div>
+        </div>
+    {% endif %}
+    {% if overview.team.marketing %}
+        <div>
+            <div class="col span_9 team-group">MKT :</div>
+            <div class="col span_3 team-number">{{overview.team.marketing}}</div>
+        </div>
+    {% endif %}
+
+</div>

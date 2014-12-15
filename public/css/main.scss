@@ -203,10 +203,9 @@ footer {
   line-height: 2;
 }
 
-.fixed-roles .part1,
-.fixed-roles .part2,
-.fixed-roles .part3,
-{
+/*--------------------------------------------------*/
+
+.project-roles-full {
   position: fixed;
   z-index: 1;
   padding: 15px;
@@ -218,6 +217,26 @@ footer {
   color: rgb(65, 65, 65);
   -webkit-box-shadow: 0 0 12px 1px #bbb;
   box-shadow: 0 0 12px 1px #bbb;
+
+  .content-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 6px;
+    /*text-align: center;*/
+  }
+
+  .category,
+  .role,
+  .contributing,
+  .project-dates,
+  .duration,
+  .post-date {
+    text-align: left;
+  }
+
+  .techno-name, .team-group {
+    padding-left: 10px;
+  }
 }
 
 .part2 {
@@ -252,6 +271,65 @@ footer {
   -o-transition: opacity 500ms ease-out, visibility 0s ease-out;
   transition: opacity 500ms ease-out, visibility 0s ease-out;
 }
+
+
+.category,
+.role,
+.contributing,
+.project-dates,
+.duration,
+.post-date {
+  text-align: right;
+}
+
+.category {
+  font-weight : italic;
+}
+
+.contributing {
+  font-weight : italic;
+  font-size : 14px;
+  color: $azul-accent-color;
+}
+
+.role {
+  font-size : 16px;
+  margin-top: -7px;
+}
+
+.duration {
+  font-size : 12px;
+  margin-top: -5px;
+  color:#888;
+}
+
+.project-dates {
+  font-size : 12px;
+}
+
+.techno-group {
+  margin-top: 5px;
+  font-size : 12px;
+}
+
+.techno-name {
+  font-size : 12px;
+  margin-top: -5px;
+  color:#888;
+}
+
+.team-group {
+  font-size : 12px;
+}
+
+.team-number {
+  font-size : 12px;
+  text-align: right;
+  color:#888;
+}
+
+
+/*--------------------------------------------------*/
 
 .home-year {
   position: absolute;
@@ -427,61 +505,6 @@ footer {
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 5px 1px #222;
   box-shadow: 2px 2px 5px 1px #222;
-}
-
-.category,
-.role,
-.contributing,
-.project-dates,
-.duration,
-.post-date {
-  text-align: right;
-}
-
-.category {
-  font-weight : italic;
-}
-
-.contributing {
-  font-weight : italic;
-  font-size : 14px;
-  color: $azul-accent-color;
-}
-
-.role {
-  font-size : 16px;
-  margin-top: -7px;
-}
-
-.duration {
-  font-size : 12px;
-  margin-top: -5px;
-  color:#888;
-}
-
-.project-dates {
-  font-size : 12px;
-}
-
-.techno-group {
-  margin-top: 5px;
-  font-size : 12px;
-}
-
-.techno-name {
-  font-size : 12px;
-  margin-top: -5px;
-  color:#888;
-}
-
-.team-group {
-  font-size : 12px;
-}
-
-.team-number {
-  font-size : 12px;
-  text-align: right;
-  color:#888;
 }
 
 .not-found {
