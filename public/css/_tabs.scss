@@ -24,7 +24,6 @@ $tabs-base-color: #eee;
   label {
     display: block;
     padding: 3px 4px;
-    border-radius: 2px 2px 0 0;
     font-size: 20px;
     font-weight: normal;
     text-transform: uppercase;
@@ -85,6 +84,23 @@ p.link {
     transition: all 0.2s ease-in;
     &:hover {
       background-color: darken($tabs-base-color, 20);
+    }
+  }
+}
+
+.resume-tools {
+  position: fixed;
+  z-index: 1;
+  padding: 4px!important;
+  right: 25px;
+  top: 25px;
+  line-height: 2;
+
+  .tabs {
+    margin: 0;
+
+    label{
+      height: 36px;
     }
   }
 }
