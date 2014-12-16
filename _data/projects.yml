@@ -178,7 +178,7 @@
         - Lua
         - Corona SDK
     status: complete
-    dates: September 2013 - April 2014
+    dates: Sept 2013 - April 2014
     duration: (2 months over this period)
     metrics:
       - name : "Team composition"
@@ -408,6 +408,23 @@
     status: complete
     dates: August 2013
     duration: (2 weeks)
+    metrics:
+      - name : "Team composition"
+        percent : 30
+      - name : "Team freedom"
+        percent : 100
+      - name : "Dev Tools"
+        percent : 80
+      - name : "Dev Interest"
+        percent : 45
+      - name : "Market size"
+        percent : 35
+      - name : "Social Momentum"
+        percent : 8
+      - name : "Exit Potential"
+        percent : 1
+
+#-------------------------------------------------------------------------------
 
   descriptions:
       - title: 2D Mobile Game
@@ -423,6 +440,8 @@
         p:
           - texts:
               - value: "Play now, it's free !"
+
+#-------------------------------------------------------------------------------
 
   credits:
       - name:
