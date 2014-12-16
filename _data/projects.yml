@@ -74,7 +74,6 @@
       # - name : "Exit Potential"
       #   percent : 40
 
-
 #-------------------------------------------------------------------------------
 
   descriptions:
@@ -145,6 +144,8 @@
       - name : "Dev Interest"
         percent : 67
 
+#-------------------------------------------------------------------------------
+
   descriptions:
     - title: Studio for Mobiles and Tablets
       subtitle: "Draft a phonecase, a mug or a calendar with your mobile tablet"
@@ -179,6 +180,21 @@
     status: complete
     dates: September 2013 - April 2014
     duration: (2 months over this period)
+    metrics:
+      - name : "Team composition"
+        percent : 30
+      - name : "Team freedom"
+        percent : 100
+      - name : "Dev Tools"
+        percent : 80
+      - name : "Dev Interest"
+        percent : 95
+      - name : "Market size"
+        percent : 20
+      - name : "Social Momentum"
+        percent : 5
+      - name : "Exit Potential"
+        percent : 1
 
 #-------------------------------------------------------------------------------
 
@@ -316,6 +332,40 @@
     status: ongoing
     dates: since October 2013
     duration: (2 years 3 months)
+    metrics:
+      - name : "No metrics : still contributing"
+      # - name : "Team composition"
+      #   percent : 68
+      # - name : "Team freedom"
+      #   percent : 100
+      # - name : "Dev Team cohesion"
+      #   percent : 90
+      # - name : "Overall Team cohesion"
+      #   percent : 22
+      # - name : "Dev Tools"
+      #   percent : 92
+      # - name : "Dev Interest"
+      #   percent : 95
+      # - name : "Market size"
+      #   percent : 40
+      # - name : "Social Momentum"
+      #   percent : 5
+      # - name : "Exit Potential"
+      #   percent : 45
+
+#-------------------------------------------------------------------------------
+
+  descriptions:
+    - title: A new way to build your maps
+      subtitle: ""
+      image:
+      p:
+        - texts:
+            - value: "Maperial"
+              link: http://maperial.com
+            - value: "is a free javascript API to create dynamical maps for your web applications. "
+
+
 
 
 
