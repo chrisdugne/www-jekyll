@@ -1,0 +1,12 @@
+{% if num > 1 %}
+    {% assign icon = 'team' %}
+{% else %}
+    {% assign icon = 'me' %}
+{% endif %}
+<div>
+    <div class="col span_9 team-group">{{name}}</div>
+    <div class="col span_2 team-number">{{num}}</div>
+    <div class="col span_1">
+        <img class="team-members" src="{{site.baseurl}}/public/images/common/{{icon}}.png">
+    </div>
+</div>

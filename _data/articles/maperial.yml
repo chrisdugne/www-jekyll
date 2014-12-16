@@ -1,0 +1,8 @@
+title: Maperial javascript API
+subtitle: A new way to create maps.
+link: http://maperial.com
+image: /projects/maperial/logo.250.jpg
+p:
+  - 'Maperial is a free javascript API to create dynamical maps for your web applications.'
+  - 'I am currently finishing up the documentation, wrapping up maperial.com and preparing examples with CodePen.'
+more: www.maperial.com

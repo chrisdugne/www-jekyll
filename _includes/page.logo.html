@@ -1,0 +1,9 @@
+{% if page.logo != null %}
+    <a class="project-logo in-header" title="{{ site.data.brume.name }}"
+     style="background-image: url({{site.baseurl}}/public/images/{{page.logo}});"></a>
+
+{% else %}
+    <a class="project-logo in-header" title="{{ site.data.brume.name }}"
+     style="background-image: url({{site.baseurl}}/public/images/projects/kodo/logo.250.jpg"></a>
+
+{% endif %}
