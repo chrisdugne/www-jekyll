@@ -67,7 +67,7 @@ Some lasted more than one year, so I've chosen the year during which there were 
           <a class="button project-details" href="/projects/{{overview.id}}">{{overview.title}}</a>
       </div>
 
-      {% include project-role-panels.html %}
+      {% include project-role-full.html %}
 
   </div>
 </div>
