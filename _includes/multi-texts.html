@@ -1,0 +1,10 @@
+
+<p class="area-centered">
+{% for text in texts %}
+    {% if text.link != null %}
+        <a href="{{text.link}}" target="_blank">{{text.value}}</a>
+    {% else %}
+        {{text.value}}
+    {% endif %}
+{% endfor %}
+</p>

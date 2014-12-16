@@ -51,17 +51,29 @@
         - Lua
         - Corona SDK
     status: ongoing
-    dates: since September 2013
+    dates: since Sept 2013
     duration: (1 year 4 months)
     metrics:
-      - name : "Market place"
-        percent : 12
-      - name : "Technology"
-        percent : 32
-      - name : "Team cohesion"
-        percent : 22
-      - name : "Team knowloedg"
-        percent : 62
+      - name : "No metrics : still contributing"
+      # - name : "Team composition"
+      #   percent : 72
+      # - name : "Team freedom"
+      #   percent : 90
+      # - name : "Dev Team cohesion"
+      #   percent : 80
+      # - name : "Overall Team cohesion"
+      #   percent : 32
+      # - name : "Dev Tools"
+      #   percent : 82
+      # - name : "Dev Interest"
+      #   percent : 12
+      # - name : "Market size"
+      #   percent : 95
+      # - name : "Social Momentum"
+      #   percent : 62
+      # - name : "Exit Potential"
+      #   percent : 40
+
 
 #-------------------------------------------------------------------------------
 
@@ -75,8 +87,10 @@
       subtitle: Mobile / Web / Back-end
       image:
       p:
-        - "I co-founded Adillions as full-stack developer to build a disruptive new sweepstake."
-        - "I've build the whole platform to launch the game :"
+        - texts:
+           - value: "I co-founded Adillions as full-stack developer to build a disruptive new sweepstake."
+        - texts:
+           - value: "I've build the whole platform to launch the game :"
       li:
         - "The mobile game (iOS + Android)"
         - "The server side and its API for our client applications"
@@ -115,9 +129,29 @@
         - Marionette.js
         - HTML/CSS
     status: complete
-    dates: December 2013 - November 2014
+    dates: Dec 2013 - Nov 2014
     duration: (1 year)
+    metrics:
+      - name : "Team composition"
+        percent : 82
+      - name : "Team freedom"
+        percent : 12
+      - name : "Dev Team cohesion"
+        percent : 72
+      - name : "Overall Team cohesion"
+        percent : 22
+      - name : "Dev Tools"
+        percent : 62
+      - name : "Dev Interest"
+        percent : 67
 
+  descriptions:
+    - title: Studio for Mobiles and Tablets
+      subtitle: "Draft a phonecase, a mug or a calendar with your mobile tablet"
+      image: projects/mstudio/mstudio.jpg
+      p:
+        - texts:
+            - value: "I've spent one year with the Photobox 'Creation Team' as Front-end developer to help building their new web-mobile Studio"
 
 
 
@@ -153,9 +187,12 @@
       subtitle: On your favorite tablet or mobile (iOs/Android)
       image: projects/behind-the-wind/devices.png
       p:
-        - Yet another swipe game...
-        - ... in a mysterious world...
-        - "Discover the first Chapter, it's free !"
+        - texts:
+            - value: Yet another swipe game...
+        - texts:
+            - value: ... in a mysterious world...
+        - texts:
+            - value: "Discover the first Chapter, it's free !"
 
 #-------------------------------------------------------------------------------
 
@@ -171,7 +208,9 @@
         link: http://www.coronalabs.com/
 
     - name:
-        - value: Thanks
+        - value: "CBEffects"
+          link: https://github.com/GymbylCoding/CBEffects
+        - value: " : Thanks"
         - value: Gymbyl Coding
           link: http://gymbyl.com
         - value: ❤ for this awesome effects lib !
@@ -179,7 +218,7 @@
       add-margin-top: true
       image:
         url: common/cbeffects.png
-        link: http://gymbyl.com
+        link: https://github.com/GymbylCoding/CBEffects
 
     - name:
         - value: Music and sound effects by
@@ -316,41 +355,49 @@
         subtitle: Quick evolution from The Lightning Planet
         image: projects/kodo/kodo.png
         p:
-          - Can you feed the Big Kodo with the good small Kodos at the right time ?
+          - texts:
+              - value: "Can you feed the Big Kodo with the good small Kodos at the right time ?"
 
       - title: Speed Game
         subtitle: Test your mental agility as the game speeds up.
         image: projects/kodo/kodo.phone.png
         p:
-          - "Play now, it's free !"
+          - texts:
+              - value: "Play now, it's free !"
 
   credits:
-      - name: Corona SDK
+      - name:
+          - value: Corona SDK
+            link: http://www.coronalabs.com/
+          - value: ❤ Lua ❤
         type: tool
         add-margin-top: true
         image:
           url: common/corona.png
           link: http://www.coronalabs.com/
-        texts:
-          - value: ❤ Lua ❤
 
-      - name: Gymbyl Coding
+      - name:
+          - value: "CBEffects"
+            link: https://github.com/GymbylCoding/CBEffects
+          - value: " : Thanks"
+          - value: Gymbyl Coding
+            link: http://gymbyl.com
+          - value: ❤ for this awesome effects lib !
         type: tool
         add-margin-top: true
         image:
           url: common/cbeffects.png
-          link: http://gymbyl.com
-        texts:
-          - value: Thanks Gymbyl Coding for this awesome effects lib !
+          link: https://github.com/GymbylCoding/CBEffects
 
-      - name: Velvet Coffee
+      - name:
+          - value: Music and sound effects by
+          - value: Velvet Coffee
+            link: https://www.facebook.com/velvetcoffeemusic
         type: asset
         add-margin-top: true
         image:
           url: common/velvetcoffee.png
           link: https://www.facebook.com/velvetcoffeemusic
-        texts:
-          - value: Music and sound effects by Velvet Coffee
 
       - name:
         type: asset
@@ -779,6 +826,19 @@
     status: complete
     dates: December 2009 - February 2010
     duration: (3 months)
+
+  descriptions:
+    - title: Prototype
+      subtitle: Upvote/Downvote application
+      image:
+      p:
+        - texts:
+          - value: "I joined 4 partners to create a web prototype"
+        - texts:
+          - value: "Here is the remaining"
+          - value: "prototype"
+            link: "http://serendi-1.appspot.com/"
+          - value: "(just wait a cople of minutes for Google AppEngine to wake it up for you :)"
 
 
 

@@ -42,7 +42,8 @@ $tabs-base-color: #eee;
   .tab-content{
     z-index: 2;
     display: none;
-    overflow: hidden;
+    max-height: 393px;
+    overflow: auto;
     width: 100%;
     font-size: 17px;
     padding: 2px 20px 12px 12px;

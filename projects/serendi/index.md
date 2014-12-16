@@ -1,11 +1,8 @@
 ---
-layout: default
+layout: project
+logo: projects/serendi/logo.250.jpg
 title: Serendi
+id: serendi
 ---
 
-<div class="bundle row gutters fadeInDown animated">
-
-[old app](http://serendi-1.appspot.com/)
-(just wait a cople of minutes for Google AppEngine to wake it up for you)
-
-</div>
+{% include game-description.html %}

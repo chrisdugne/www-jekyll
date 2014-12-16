@@ -1,5 +1,5 @@
 ---
-layout: highlight
+layout: project
 title: Projects
 ---
 
