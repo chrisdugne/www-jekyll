@@ -4,15 +4,21 @@ logo: projects/tribes-and-khans/logo.250.jpg
 title: Tribes And Khans
 id: tribes-and-khans
 ---
-**Tribes And Khans** was a free MMO Strategy game.
 
-Build cities, raise armies to extend your lands, use merchants caravans to share your resources.
+{% include game-description.html num=0 %}
 
-The game ran 24/24h on a hex-board. You could move your troops to conquer new lands or to defend your boundaries.
+{% include game-description.html num=1 %}
 
-This [tumblr](wed) shew the evolution of the game from the start.
+{% include game-description.html num=2 %}
 
-A lost server may be tested [here](http://s3.tribes-and-khans.uralys.com/), just wait a cople of minutes for Google AppEngine to wake it up for you ; )
+{% include game-description.html num=3 %}
 
+{% include game-description.html num=4 %}
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/4v4_DOWykkw" frameborder="0" allowfullscreen></iframe>
+{% include game-description.html num=5 %}
+
+<div class="highlight">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/4v4_DOWykkw" frameborder="0" allowfullscreen></iframe>
+</div>
+
+{% include game-credits.html %}

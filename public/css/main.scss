@@ -223,6 +223,10 @@ footer {
   padding: 0 20px;
 }
 
+body {
+  background : url(/public/images/background.jpg) top center no-repeat $site-background-color;
+}
+
 .center {
   text-align: center;
 }
