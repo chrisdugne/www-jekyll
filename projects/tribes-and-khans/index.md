@@ -1,8 +1,9 @@
 ---
 layout: project
-title: Projects
+logo: projects/tribes-and-khans/logo.250.jpg
+title: Tribes And Khans
+id: tribes-and-khans
 ---
-
 **Tribes And Khans** was a free MMO Strategy game.
 
 Build cities, raise armies to extend your lands, use merchants caravans to share your resources.
