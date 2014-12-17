@@ -4,7 +4,7 @@ logo: projects/behind-the-wind/logo.250.jpg
 title: Behind The Wind
 id: behind-the-wind
 google-play-url: "https://play.google.com/store/apps/details?id=com.uralys.behindthewind"
-app-store-url: "https://itunes.apple.com/us/app/behind-the-wind/id710604626"
+app-store-url: "https://itunes.apple.com/us/app/id710604626"
 ---
 
 {% include game-description.html %}
