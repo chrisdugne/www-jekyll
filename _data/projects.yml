@@ -53,26 +53,25 @@
     status: ongoing
     dates: since Sept 2013
     duration: (1 year 4 months)
-    metrics:
-      - name : "No metrics : still contributing"
-      # - name : "Team composition"
-      #   percent : 72
-      # - name : "Team freedom"
-      #   percent : 90
-      # - name : "Dev Team cohesion"
-      #   percent : 80
-      # - name : "Overall Team cohesion"
-      #   percent : 32
-      # - name : "Dev Tools"
-      #   percent : 82
-      # - name : "Dev Interest"
-      #   percent : 12
-      # - name : "Market size"
-      #   percent : 95
-      # - name : "Social Momentum"
-      #   percent : 62
-      # - name : "Exit Potential"
-      #   percent : 40
+    # metrics:
+    #   - name : "Team composition"
+    #     percent : 72
+    #   - name : "Team freedom"
+    #     percent : 90
+    #   - name : "Dev Team cohesion"
+    #     percent : 80
+    #   - name : "Overall Team cohesion"
+    #     percent : 32
+    #   - name : "Dev Tools"
+    #     percent : 82
+    #   - name : "Dev Interest"
+    #     percent : 12
+    #   - name : "Market size"
+    #     percent : 95
+    #   - name : "Social Momentum"
+    #     percent : 62
+    #   - name : "Exit Potential"
+    #     percent : 40
 
 #-------------------------------------------------------------------------------
 
@@ -332,26 +331,25 @@
     status: ongoing
     dates: since October 2013
     duration: (2 years 3 months)
-    metrics:
-      - name : "No metrics : still contributing"
-      # - name : "Team composition"
-      #   percent : 68
-      # - name : "Team freedom"
-      #   percent : 100
-      # - name : "Dev Team cohesion"
-      #   percent : 90
-      # - name : "Overall Team cohesion"
-      #   percent : 22
-      # - name : "Dev Tools"
-      #   percent : 92
-      # - name : "Dev Interest"
-      #   percent : 95
-      # - name : "Market size"
-      #   percent : 40
-      # - name : "Social Momentum"
-      #   percent : 5
-      # - name : "Exit Potential"
-      #   percent : 45
+    # metrics:
+    #   - name : "Team composition"
+    #     percent : 68
+    #   - name : "Team freedom"
+    #     percent : 100
+    #   - name : "Dev Team cohesion"
+    #     percent : 90
+    #   - name : "Overall Team cohesion"
+    #     percent : 22
+    #   - name : "Dev Tools"
+    #     percent : 92
+    #   - name : "Dev Interest"
+    #     percent : 95
+    #   - name : "Market size"
+    #     percent : 40
+    #   - name : "Social Momentum"
+    #     percent : 5
+    #   - name : "Exit Potential"
+    #     percent : 45
 
 #-------------------------------------------------------------------------------
 
@@ -389,10 +387,6 @@
     title: Kodo
     year: 2013
     month: 08
-    roles: 'Game Designer, Mobile Developer'
-    dev-team: 1
-    design-team: 0
-    mark-team: 0
     status: complete
     roles:
       - Mobile Developer
@@ -410,13 +404,13 @@
     duration: (2 weeks)
     metrics:
       - name : "Team composition"
-        percent : 30
+        percent: 30
       - name : "Team freedom"
-        percent : 100
+        percent: 100
       - name : "Dev Tools"
         percent : 80
       - name : "Dev Interest"
-        percent : 45
+        percent : 20
       - name : "Market size"
         percent : 35
       - name : "Social Momentum"
@@ -607,10 +601,6 @@
     title: The Lightning Planet
     year: 2013
     month: 07
-    roles: 'Game Designer, Mobile Developer'
-    dev-team: 1
-    design-team: 0
-    mark-team: 0
     status: complete
     roles:
       - Mobile Developer
@@ -626,6 +616,154 @@
     status: complete
     dates: July - August 2013
     duration: (2 months)
+    metrics:
+      - name : "Team composition"
+        percent: 30
+      - name : "Team freedom"
+        percent: 100
+      - name : "Dev Tools"
+        percent : 80
+      - name : "Dev Interest"
+        percent : 70
+      - name : "Market size"
+        percent : 35
+      - name : "Social Momentum"
+        percent : 8
+      - name : "Exit Potential"
+        percent : 1
+
+
+#-------------------------------------------------------------------------------
+
+  descriptions:
+      - title: 2D Mobile Game
+        subtitle: Speed Game
+        image: projects/the-lightning-planet/tlp.png
+        p:
+          - texts:
+              - value: "Colored asteroids are rushing to your Planet."
+          - texts:
+              - value: "Be quick to switch its color at the right time."
+          - texts:
+              - value: "Play now, it's free !"
+
+      - title: 4 modes
+        subtitle: Test your mental agility as the game speeds up.
+        image: projects/the-lightning-planet/tlp.iphone.png
+        li:
+          - "Classic : Asteroids are rushing quicker and quicker, catch them as long as possible !"
+          - "Combo : Destroy asteroids in a specific order to achieve Combo."
+          - "Time Attack : Get the more points possible in the given time."
+          - "Kamikaze : Get the more points possible with the given Energy."
+
+
+#-------------------------------------------------------------------------------
+
+  credits:
+      - name:
+          - value: Corona SDK
+            link: http://www.coronalabs.com/
+          - value: ❤ Lua ❤
+        type: tool
+        add-margin-top: true
+        image:
+          url: common/corona.png
+          link: http://www.coronalabs.com/
+
+      - name:
+          - value: "CBEffects"
+            link: https://github.com/GymbylCoding/CBEffects
+          - value: " : Thanks"
+          - value: Gymbyl Coding
+            link: http://gymbyl.com
+          - value: ❤ for this awesome effects lib !
+        type: tool
+        add-margin-top: true
+        image:
+          url: common/cbeffects.png
+          link: https://github.com/GymbylCoding/CBEffects
+
+      - name:
+          - value: Music and sound effects by
+          - value: Velvet Coffee
+            link: https://www.facebook.com/velvetcoffeemusic
+        type: asset
+        add-margin-top: true
+        image:
+          url: common/velvetcoffee.png
+          link: https://www.facebook.com/velvetcoffeemusic
+
+      - name:
+        type: asset
+        add-margin-top: true
+        texts:
+          - value: The game's icons come from
+          - value: The Noun Project
+            link: http://thenounproject.com/
+
+      - name:
+        type: asset
+        add-margin-top: true
+        texts:
+          - value: Arrows
+            link: http://thenounproject.com/noun/arrows/#icon-No14392
+          - value: designed by
+          - value: Brian Oppenlander
+            link: http://thenounproject.com/Oppenlander
+
+      - name:
+        type: asset
+        texts:
+          - value: Squares
+            link: http://thenounproject.com/noun/squares/#icon-No15348
+          - value: designed by
+          - value: SuperAtic LABS
+            link: http://thenounproject.com/SuperAtic
+
+      - name:
+        type: asset
+        texts:
+          - value: Redo
+            link: http://thenounproject.com/noun/redo/#icon-No2881
+          - value: designed by
+          - value: P.J. Onori
+            link: http://thenounproject.com/somerandomdude
+
+      - name:
+        type: asset
+        texts:
+          - value: Square
+            link: http://thenounproject.com/noun/square/#icon-No12983
+          - value: designed by
+          - value: Renee Ramsey-Passmore
+            link: http://thenounproject.com/Renee Ramsey-Passmore
+
+      - name:
+        type: asset
+        texts:
+          - value: Settings
+            link: http://thenounproject.com/noun/settings/#icon-No16372
+          - value: designed by
+          - value: Luis Rodrigues
+            link: http://thenounproject.com/lmf.rodrigues
+
+      - name:
+        type: asset
+        texts:
+          - value: Play
+            link: http://thenounproject.com/noun/play/#icon-No8552
+          - value: designed by
+          - value: Jardson Araújo
+            link: http://thenounproject.com/jardsonaraujo
+
+      - name:
+        type: asset
+        texts:
+          - value: Coffee
+            link: http://thenounproject.com/noun/coffee/#icon-No19813
+          - value: designed by
+          - value: Roman Trilo-Denysyuk
+            link: http://thenounproject.com/triloroman
 
 
 

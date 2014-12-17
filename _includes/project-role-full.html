@@ -93,6 +93,7 @@
             </div>
         </li>
 
+        {% if overview.metrics %}
         <li>
             <input type="radio" name="tabs" id="tab4" />
             <label for="tab4" title="Metrics"><img src="{{site.baseurl}}/public/images/common/metrics.png" style="height:30px"></label>
@@ -106,6 +107,7 @@
 
             </div>
         </li>
+        {% endif %}
     </ul>
 
 

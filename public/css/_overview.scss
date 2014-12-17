@@ -20,6 +20,16 @@
 
   .category,
   .role,
+  .project-dates,
+  .duration,
+  .bundle,
+  .bundle-content,
+  .post-date {
+    text-align: center;
+  }
+
+  .category,
+  .role,
   .contributing,
   .project-dates,
   .duration,
@@ -52,6 +62,10 @@
   .metrics-progress {
     height: 18px;
   }
+}
+
+.part1 {
+    margin-top: 6px;
 }
 
 .part2 {
@@ -108,7 +122,7 @@
 }
 
 .role {
-  font-size : 16px;
+  font-size : 14px;
   margin-top: -7px;
 }
 

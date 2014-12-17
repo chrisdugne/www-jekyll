@@ -365,10 +365,10 @@ footer {
 }
 
 .store-button{
-  height: 90px;
-  width: 290px !important;
+  height: 80px;
+  width: 240px !important;
   display: inline-block;
-  background-size: 300px 100px;
+  background-size: 250px 85px;
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-border-radius: 10px;
@@ -439,16 +439,6 @@ dl,
         transform: none;
       }
     }
-  }
-
-  .category,
-  .role,
-  .project-dates,
-  .duration,
-  .bundle,
-  .bundle-content,
-  .post-date {
-    text-align: center;
   }
 
   .project {
