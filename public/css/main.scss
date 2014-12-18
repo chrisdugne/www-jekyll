@@ -453,6 +453,10 @@ dl,
 
 /*============================================================================*/
 @media screen and (max-width: 767px) {
+  body{
+    background-position: 20% top;
+  }
+
   .top-navbar {
     height: 35px;
     text-align: center;

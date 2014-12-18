@@ -1040,7 +1040,7 @@
                 link: "http://s3.tribes-and-khans.uralys.com/"
               - value: "is the 4th version (1.3)"
           - texts:
-              - value: "(just wait a cople of minutes for Google AppEngine to wake it up for you ; )"
+              - value: "(just wait a couple of minutes for Google AppEngine to wake it up for you ; )"
 
 
 #-------------------------------------------------------------------------------
@@ -1209,7 +1209,7 @@
           - value: "Here is the remaining"
           - value: "prototype"
             link: "http://serendi-1.appspot.com/"
-          - value: "(just wait a cople of minutes for Google AppEngine to wake it up for you :)"
+          - value: "(just wait a couple of minutes for Google AppEngine to wake it up for you :)"
 
 
 
