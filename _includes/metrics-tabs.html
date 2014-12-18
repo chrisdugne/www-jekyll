@@ -1,0 +1,9 @@
+
+<div class="metrics-name">{{data.name}}</div>
+
+{% assign percent = data.percent %}
+{% assign g = 255 | times:percent | divided_by:100 %}
+{% assign r = 255 | minus:g %}
+<div class="span_9 metrics-bg">
+    <div class="metrics-progress" style="width:{{percent}}%; background-color: rgb({{r}}, {{g}}, 53);"></div>
+</div>
