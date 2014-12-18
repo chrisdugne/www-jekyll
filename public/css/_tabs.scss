@@ -105,3 +105,14 @@ p.link {
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .resume-tools {
+      position: fixed;
+      z-index: 21;
+      padding: 2px !important;
+      right: 0px;
+      top: 0px;
+      line-height: 2;
+  }
+}

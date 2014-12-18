@@ -203,19 +203,20 @@ footer {
 /*--------------------------------------------------*/
 
 .skill {
-  padding: 3px 55px;
+  padding: 3px 0px;
+  margin-left: 20%;
 
   .metrics-bg {
-    background-color: #DADADA;
+    background-color: #BBCB98  ;
     height:22px;
-    margin-left: 30%;
+    margin-left: 0;
     margin-bottom: 10px;
     border-radius: 10px;
   }
 
   .metrics-name {
     font-size: 15px;
-    color: #555;
+    color: #fff;
     margin-top: 0px;
     padding-left: 5px;
   }
@@ -470,9 +471,10 @@ dl,
     }
   }
 
-  .project {
-    height: 240px;
-    margin-top:30px;
+  .bundle .post-year {
+    margin-bottom: 42px;
+    padding: 10px;
+    font-size: 37px;
   }
 
   .bundle article {
@@ -482,6 +484,15 @@ dl,
   .project-logo {
     width: 100%;
     background-position: center center;
+
+    &.in-row {
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+  }
+
+  .skill {
+      margin-left: 0;
   }
 
   .home-year {

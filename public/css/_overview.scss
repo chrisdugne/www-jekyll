@@ -157,3 +157,49 @@
   color:#888;
 }
 
+/*============================================================================*/
+@media screen and (max-width: 767px) {
+  .project {
+    height: auto;
+    margin-top: 0px;
+
+    &.in-row {
+      margin-top: 0px;
+    }
+  }
+
+  .category,
+  .role,
+  .contributing,
+  .project-dates,
+  .duration,
+  .post-date,
+  .team-number {
+    text-align: center;
+  }
+
+  .role-part {
+    position: relative;
+    right: 0;
+    padding: 20px;
+
+    &.part1, &.part2, &.part3 {
+      display: none;
+    }
+  }
+
+  .role-part.active {
+    &.part1, &.part2, &.part3 {
+      display: block;
+    }
+  }
+
+  .part1 {
+  }
+
+  .part2, .part3 {
+    width: auto;
+    right: 0px !important;
+    margin-top: 0px;
+  }
+}

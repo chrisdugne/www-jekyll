@@ -66,7 +66,7 @@ Some lasted more than one year, so I've chosen the year during which there were 
 <div class="bundle-content row gutters fadeInDown animated">
 {% endif %}
 
-  <div class="project col span_12">
+  <div class="project row span_12">
 
       <h2 class="post-year col span_1">
       {% if newYear %}
