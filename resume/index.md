@@ -28,7 +28,7 @@ logo: chris.jpg
 {% comment %} ------------------------------------------------- {% endcomment %}
 
 <div class="bundle row gutters fadeInDown animated">
-<h2>Main Skills</h2>
+<h2>Skills</h2>
 {% for data in site.data.me.skills %}
   {% include metrics-resume.html %}
 {% endfor %}
