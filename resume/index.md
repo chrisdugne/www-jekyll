@@ -80,4 +80,20 @@ Some lasted more than one year, so I've chosen the year during which there were 
 {% endfor %}
 
 
+<div class="bundle row gutters fadeInDown animated">
+<h2>Education</h2>
+<h2 class="post-year col span_1">
+</h2>
+
+<p>
+<b>2003 – 2006</b>  | <a href="http://www.enseirb-matmeca.fr/"> <b>ENSEIRB </b></a> delivers a Diploma of Engineering at a level equivalent to 5 years of higher education.
+</p>
+
+<p>
+<b>2001 – 2003</b>  | Scientific <a href="http://en.wikipedia.org/wiki/Classe_pr%C3%A9paratoire_aux_grandes_%C3%A9coles"> <b>CPGE</b></a> - Specialized in Mathematics and Physics (MPSI).
+</p>
+
+</div>
+
+
 </section>
