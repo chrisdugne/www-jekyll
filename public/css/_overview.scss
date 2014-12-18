@@ -157,6 +157,14 @@
   color:#888;
 }
 
+.pdf-button {
+  position: fixed;
+  top: 53px;
+  right: 6px;
+  width: 30px;
+  z-index: 3;
+}
+
 /*============================================================================*/
 @media screen and (max-width: 767px) {
   .project {

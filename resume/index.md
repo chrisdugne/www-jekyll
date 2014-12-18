@@ -6,23 +6,24 @@ logo: chris.jpg
 
 {% comment %} ------------------------------------------------- {% endcomment %}
 
+<a href="{{site.baseurl}}/public/cv.2014.pdf" target="blank">
+  <img class="pdf-button" src="{{site.baseurl}}/public/images/common/pdf.png">
+</a>
 <div class="highlight resume-tools">
-     <ul class="tabs">
-        <li>
-            <input type="radio" class="radio"  name="info" id="tab1" value="1" checked />
-            <label for="tab1" title="Roles/dates"><img src="{{site.baseurl}}/public/images/common/me.png" style="height:30px"></label>
-        </li>
-
-        <li>
-            <input type="radio" class="radio"  name="info" id="tab2" value="2" />
-            <label for="tab2" title="Technologies"><img src="{{site.baseurl}}/public/images/common/settings.png" style="height:30px"></label>
-        </li>
-
-        <li>
-            <input type="radio" class="radio"  name="info" id="tab3" value="3" />
-            <label for="tab3" title="Team"><img class="tab-logo" src="{{site.baseurl}}/public/images/common/team.png"></label>
-        </li>
-    </ul>
+  <ul class="tabs">
+    <li>
+      <input type="radio" class="radio"  name="info" id="tab1" value="1" checked />
+      <label for="tab1" title="Roles/dates"><img src="{{site.baseurl}}/public/images/common/me.png" style="height:30px"></label>
+    </li>
+    <li>
+      <input type="radio" class="radio"  name="info" id="tab2" value="2" />
+      <label for="tab2" title="Technologies"><img src="{{site.baseurl}}/public/images/common/settings.png" style="height:30px"></label>
+    </li>
+    <li>
+      <input type="radio" class="radio"  name="info" id="tab3" value="3" />
+      <label for="tab3" title="Team"><img class="tab-logo" src="{{site.baseurl}}/public/images/common/team.png"></label>
+    </li>
+  </ul>
 </div>
 
 {% comment %} ------------------------------------------------- {% endcomment %}
