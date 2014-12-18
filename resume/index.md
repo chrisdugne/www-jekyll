@@ -4,6 +4,8 @@ title: Resume
 logo: chris.jpg
 ---
 
+{% comment %} ------------------------------------------------- {% endcomment %}
+
 <div class="highlight resume-tools">
      <ul class="tabs">
         <li>
@@ -23,7 +25,16 @@ logo: chris.jpg
     </ul>
 </div>
 
-{% assign currentYear = 0 %}
+{% comment %} ------------------------------------------------- {% endcomment %}
+
+<div class="bundle row gutters fadeInDown animated">
+<h2>Main Skills</h2>
+{% for data in site.data.me.skills %}
+  {% include metrics-resume.html %}
+{% endfor %}
+</div>
+
+{% comment %} ------------------------------------------------- {% endcomment %}
 
 <section class="archive">
 
@@ -38,6 +49,7 @@ Some lasted more than one year, so I've chosen the year during which there were 
 </p>
 </div>
 
+{% assign currentYear = 0 %}
 {% for project in site.data.projects %}
 {% assign overview = project.overview %}
 
@@ -76,8 +88,9 @@ Some lasted more than one year, so I've chosen the year during which there were 
   </div>
 </div>
 
-
 {% endfor %}
+
+{% comment %} ------------------------------------------------- {% endcomment %}
 
 
 <div class="bundle row gutters fadeInDown animated">
