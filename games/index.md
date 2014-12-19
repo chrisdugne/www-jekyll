@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Games
+description: All Uralys games
 logo: projects/tribes-and-khans/logo.250.jpg
 ---
 

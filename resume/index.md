@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Resume
+description: Chris Dugne's resume
 logo: chris.jpg
 ---
 
