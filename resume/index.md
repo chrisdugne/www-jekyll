@@ -4,7 +4,6 @@ title: Resume
 logo: chris.jpg
 ---
 
-{% comment %} ------------------------------------------------- {% endcomment %}
 
 <a href="{{site.baseurl}}/public/cv.2014.pdf" target="blank">
   <img class="pdf-button" src="{{site.baseurl}}/public/images/common/pdf.png">
@@ -26,7 +25,7 @@ logo: chris.jpg
   </ul>
 </div>
 
-{% comment %} ------------------------------------------------- {% endcomment %}
+
 
 <div class="bundle row gutters fadeInDown animated">
 <h2>Skills</h2>
@@ -35,7 +34,7 @@ logo: chris.jpg
 {% endfor %}
 </div>
 
-{% comment %} ------------------------------------------------- {% endcomment %}
+
 
 <section class="archive">
 
@@ -91,7 +90,7 @@ Some lasted more than one year, so I've chosen the year during which there were 
 
 {% endfor %}
 
-{% comment %} ------------------------------------------------- {% endcomment %}
+
 
 
 <div class="bundle row gutters fadeInDown animated">
