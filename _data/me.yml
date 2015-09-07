@@ -1,18 +1,22 @@
 skills:
-  - name: JavaScript
-    percent: 92
   - name: Lua
-    percent: 85
+    percent: 93
+  - name: JavaScript
+    percent: 87
   - name: Backbone.js
     percent: 82
+  - name:  Node.js
+    percent: 79
+  - name: Angular
+    percent: 77
   - name: Backbone.Marionette
     percent: 75
-  - name:  Node.js
-    percent: 72
   - name: HTML5
     percent: 69
+  - name: React
+    percent: 65
   - name: Ember.js
-    percent: 67
-  - name: Java
     percent: 63
+  - name: Java
+    percent: 60
 

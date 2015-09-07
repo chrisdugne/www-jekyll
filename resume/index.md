@@ -43,7 +43,7 @@ logo: chris.jpg
 <h2>Experience</h2>
 
 <p>
-Here are all the projects I've contributed to or created.
+Here are all the projects I've created or contributed to.
 </p>
 <p>
 Some lasted more than one year, so I've chosen the year during which there were the most contributions.
