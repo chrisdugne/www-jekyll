@@ -24,7 +24,7 @@
 
 
 #-------------------------------------------------------------------------------
-#  Behind The Wind
+#  Phantoms
 #-------------------------------------------------------------------------------
 
 - overview:
@@ -64,6 +64,15 @@
 #-------------------------------------------------------------------------------
 
   credits:
+    - name:
+        - value: Christophe Dugne-Esquevin
+          link: https://twitter.com/chrisdugne
+        - value: Coding
+        - value: Game Design
+        - value: Music + SFX
+      type: tool
+      add-margin-top: true
+
     - name:
         - value: Corona SDK
           link: http://www.coronalabs.com/
@@ -144,32 +153,21 @@
       type: asset
       add-margin-top: true
       texts:
-        - value: The phantoms'
-        - value: eyes
-          link: "https://thenounproject.com/term/play/36482/"
+        - value: The headphones
+          link: "https://thenounproject.com/term/headphones/1416/"
         - value: designed by
-        - value: Ealancheliyan s
-          link: http://thenounproject.com/Ealancheliyan/
+        - value: Madebyelvis
+          link: https://thenounproject.com/Madebyelvis/
 
     - name:
       type: asset
       texts:
-        - value: The tutorial focus arrows
-          link: "https://thenounproject.com/term/arrows/38170/"
-        - value: designed by
-        - value: Stefan Parnarov
-          link: http://thenounproject.com/sapi/
-
-    - name:
-      type: asset
-      texts:
-        - value: The profile button icon
+        - value: The
+        - value: profile
           link: "http://thenounproject.com/term/profile/77971/"
-        - value: designed by
+        - value: button icon designed by
         - value: Miguel C Balandrano
           link: http://thenounproject.com/acider/
-
-
 
 
 #-------------------------------------------------------------------------------
