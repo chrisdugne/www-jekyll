@@ -67,11 +67,23 @@
     - name:
         - value: Christophe Dugne-Esquevin
           link: https://twitter.com/chrisdugne
-        - value: Coding
-        - value: Game Design
-        - value: Music + SFX
-      type: tool
+      type: asset
       add-margin-top: true
+
+    - name:
+        - value: Coding
+      type: asset
+
+    - name:
+        - value: Game Design
+      type: asset
+
+    - name:
+        - value: Music + SFX (as a half of
+        - value: Velvet Coffee
+          link: https://www.facebook.com/velvetcoffeemusic
+        - value: )
+      type: asset
 
     - name:
         - value: Corona SDK
@@ -95,16 +107,6 @@
       image:
         url: common/cbeffects.png
         link: https://github.com/GymbylCoding/CBEffects
-
-    - name:
-        - value: Music and sound effects by
-        - value: Velvet Coffee
-          link: https://www.facebook.com/velvetcoffeemusic
-      type: asset
-      add-margin-top: true
-      image:
-        url: common/velvetcoffee.png
-        link: https://www.facebook.com/velvetcoffeemusic
 
     - name:
       type: asset
