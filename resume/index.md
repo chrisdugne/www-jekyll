@@ -6,7 +6,7 @@ logo: chris.jpg
 ---
 
 
-<a href="{{site.baseurl}}/public/cv.2014.pdf" target="_blank">
+<a href="{{site.baseurl}}/public/cv.pdf" target="_blank">
   <img class="pdf-button" src="{{site.baseurl}}/public/images/common/pdf.png">
 </a>
 <div class="highlight resume-tools">
