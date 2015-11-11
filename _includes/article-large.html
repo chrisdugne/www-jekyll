@@ -1,0 +1,25 @@
+
+{% assign content = site.data.articles[year][include.id] %}
+
+<section class="col span_12 highlight center {% if include.centered %}area-centered{% endif %}" {% if include.forceHeight != null %}style="height:{{include.forceHeight}}"{% endif %}>
+    <div class="col span_7">
+        <img src="{{site.baseurl}}/public/images/{{content.highlight}}"/>
+    </div>
+    <div class="col span_5">
+        <h3>{{content.title}}</h3>
+        <p>{{content.subtitle}}</p>
+
+        {% if content.image != null %}
+        <p>
+            <a href="{{content.link}}" target="_blank" class="project-logo" style="background-image: url({{site.baseurl}}/public/images/{{content.image}});"></a>
+        </p>
+        {% endif %}
+
+        {% for p in content.p %}
+            <p>{{p}}</p>
+        {% endfor %}
+
+        <a class="button project-details" href="{{content.link}}">{{content.more}}</a>
+    </div>
+</section>
+

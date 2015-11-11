@@ -1,5 +1,5 @@
 - url: /
-  title: Uralys
+  title: 2015
 
 - url: /games
   title: Games
@@ -7,5 +7,11 @@
 # - url: /news
 #   title: News
 
+# - url: /years
+#   title: Archives
+
+# - url: /press
+#   title: Press
+
 - url: /resume
-  title: Resume
+  title: Me

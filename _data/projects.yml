@@ -50,14 +50,14 @@
 #-------------------------------------------------------------------------------
 
   descriptions:
-    - title: Aiming October 2015 for the release!
-      subtitle: on both Apple Store and Google Play
-      image: projects/phantoms/playground.png
+    - title: Prepare for the labyrinths
+      subtitle: A mobile mind game
+      image: projects/phantoms/devices.png
       p:
         - texts:
-            - value: This new reflexion game is coming soon
+            - value: You will have to find different paths to catch all gems in every houses and reach the exits.
         - texts:
-            - value: "Find your path within rooms, doors and triggers to catch all the gems"
+            - value: "Trigger your way through intricate 2D labyrinths, toggling doors, rotating rooms, and many more tricks."
         - texts:
             - value: "Discover the first Chapters, they're free !"
 
@@ -172,6 +172,56 @@
           link: http://thenounproject.com/acider/
 
 
+
+
+
+
+#-------------------------------------------------------------------------------
+#  Coorpacademy
+#-------------------------------------------------------------------------------
+
+- overview:
+    category: employee
+    id: coorpacademy
+    title: Coorpacademy
+    year: 2015
+    month: 03
+    roles:
+      - Web and Mobile Developer
+    team:
+      dev: 10
+    techno:
+      front:
+        - Angular.js
+        - HTML/Stylus
+      back:
+        - Node.js
+    status: ongoing
+    dates: since March 2015
+    metrics:
+      - name : "Team composition"
+        percent : 90
+      - name : "Team freedom"
+        percent : 85
+      - name : "Dev Team cohesion"
+        percent : 95
+      - name : "Overall Team cohesion"
+        percent : 90
+      - name : "Dev Tools"
+        percent : 80
+      - name : "Dev Interest"
+        percent : 95
+
+#-------------------------------------------------------------------------------
+
+  descriptions:
+    - title: Stupid simple E-learning
+      p:
+        - texts:
+            - value: "I've joined the Coorpacademy's team to help building their innovative SaaS solution."
+        - texts:
+            - value: "Coorpacademy is a pioneer in the field of pedagogical innovation, offering a brand new solution: MOOCs designed for corporations. "
+
 #-------------------------------------------------------------------------------
 #  Adillions
 #-------------------------------------------------------------------------------
@@ -219,7 +269,7 @@
       - name : "Social Momentum"
         percent : 62
       - name : "Exit Potential"
-        percent : 40
+        percent : 10
 
 #-------------------------------------------------------------------------------
 
@@ -488,28 +538,28 @@
         - JavaScript
         - HTML5
         - HTML/CSS
-    status: ongoing
-    dates: since October 2012
+    status: complete
+    dates: Oct 2012 - Dec 2014
     duration: (2 years 3 months)
-    # metrics:
-    #   - name : "Team composition"
-    #     percent : 68
-    #   - name : "Team freedom"
-    #     percent : 100
-    #   - name : "Dev Team cohesion"
-    #     percent : 90
-    #   - name : "Overall Team cohesion"
-    #     percent : 22
-    #   - name : "Dev Tools"
-    #     percent : 92
-    #   - name : "Dev Interest"
-    #     percent : 95
-    #   - name : "Market size"
-    #     percent : 40
-    #   - name : "Social Momentum"
-    #     percent : 5
-    #   - name : "Exit Potential"
-    #     percent : 45
+    metrics:
+      - name : "Team composition"
+        percent : 68
+      - name : "Team freedom"
+        percent : 100
+      - name : "Dev Team cohesion"
+        percent : 90
+      - name : "Overall Team cohesion"
+        percent : 55
+      - name : "Dev Tools"
+        percent : 92
+      - name : "Dev Interest"
+        percent : 95
+      - name : "Market size"
+        percent : 40
+      - name : "Social Momentum"
+        percent : 5
+      - name : "Exit Potential"
+        percent : 45
 
 #-------------------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 
-{% assign content = site.data.articles[include.id] %}
+{% assign content = site.data.articles[year][include.id] %}
 
 <section class="col span_6 highlight center {% if include.centered %}area-centered{% endif %}" {% if include.forceHeight != null %}style="height:{{include.forceHeight}}"{% endif %}>
     <header>
