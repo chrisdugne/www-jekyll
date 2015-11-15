@@ -394,6 +394,14 @@ body {
   }
 }
 
+.press-icon {
+  height: 120px;
+  width: 120px;
+  background-size: 120px 120px;
+  border-radius: 20%;
+  margin: 25px 0;
+}
+
 .store-button{
   height: 80px;
   width: 240px !important;
@@ -449,6 +457,15 @@ dl,
   background-size: 125px 125px;
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+.screenshot {
+  height: 150px;
+  width: 150px;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin: 25px 0;
 }
 
 /*============================================================================*/

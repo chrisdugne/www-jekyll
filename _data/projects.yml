@@ -55,10 +55,6 @@
       image: projects/phantoms/devices.png
       p:
         - texts:
-            - value: You will have to find different paths to catch all gems in every houses and reach the exits.
-        - texts:
-            - value: "Trigger your way through intricate 2D labyrinths, toggling doors, rotating rooms, and many more tricks."
-        - texts:
             - value: "Discover the first Chapters, they're free !"
 
 #-------------------------------------------------------------------------------
@@ -111,6 +107,13 @@
     - name:
       type: asset
       add-margin-top: true
+      texts:
+        - value: Phantoms from Yurike's
+        - value: Furry Creatures
+          link: http://yurike11.deviantart.com/art/Furry-Creatures-164706499
+
+    - name:
+      type: asset
       texts:
         - value: Background by
         - value: Oussama Agazzoum

@@ -10,8 +10,8 @@
 # - url: /years
 #   title: Archives
 
-# - url: /press
-#   title: Press
+- url: /press
+  title: Press
 
 - url: /resume
   title: Me

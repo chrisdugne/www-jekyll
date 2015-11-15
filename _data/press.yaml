@@ -1,0 +1,14 @@
+developer: "Uralys is an independent developer of innovative web and mobile games since 2010 in Paris, France."
+phantoms: "Phantoms is a mobile mind game providing 2D labyrinths where teams of phantoms trigger colored doors and rooms to modify the paths. Reaching the exit may sometimes be quite easy, but you'll have to find all gems along the way..."
+gameplay: "You will move phantoms one by one, toggling many kinds of triggers to open doors, rotate rooms, reveal hidden areas, to find a way, step by step, toward the exit. From simple houses to devious castles, you'll be challenged to find all the Gems."
+highlights:
+    - free !
+    - "on iOS and Android, check both phone and tablet versions"
+    - "2 chapters, 16 levels for the first public release"
+    - "Music by Velvet Coffee (be sure to plug your headphones ♫ )"
+team:
+    - "Idea, Coding, Game Design and Soundtracks by <b>Chris Dugne</b>"
+    - 'Arts grabbed from many freemiums, see game <a href="/projects/phantoms#credits">credits</a>'
+articles:
+    - "Future awesome comment"
+    - "Future tremendous article"
