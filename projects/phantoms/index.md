@@ -3,11 +3,15 @@ layout: project
 logo: projects/phantoms/logo.250.jpg
 title: Phantoms
 id: phantoms
+google-play-url: "https://play.google.com/store/apps/details?id=com.uralys.phantoms"
+app-store-url: "https://itunes.apple.com/us/app/id1037707233"
 ---
 
 {% assign press = site.data.press %}
 
 {% include game-description.html num=0 %}
+
+{% include store-buttons.html %}
 
 <div class="highlight row gutters span_12">
     <iframe width="860"
