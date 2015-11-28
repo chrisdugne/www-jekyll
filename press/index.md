@@ -3,6 +3,8 @@ layout: page
 title: Press Kit
 description: Phantoms press kit
 logo: projects/phantoms/logo.250.jpg
+google-play-url: "https://play.google.com/store/apps/details?id=com.uralys.phantoms"
+app-store-url: "https://itunes.apple.com/us/app/id1037707233"
 ---
 
 {% assign press = site.data.press %}
@@ -21,6 +23,13 @@ logo: projects/phantoms/logo.250.jpg
       <li>{{ highlight }}</li>
     {% endfor %}
     </ul>
+</div>
+
+<div class="row gutters fadeInDown animated">
+  <h1 class="bundle">Release</h1>
+  <p>November 25, 2015 on iOS & Android</p>
+
+  {% include store-buttons.html hideHighlight=true%}
 </div>
 
 <div class="row gutters fadeInDown animated">
@@ -63,11 +72,6 @@ logo: projects/phantoms/logo.250.jpg
   <p>
     <a href="https://www.facebook.com/uralys">Facebook</a>
   </p>
-</div>
-
-<div class="row gutters fadeInDown animated">
-  <h1 class="bundle">Release</h1>
-  <p>November 30, 2015 on iOS & Android</p>
 </div>
 
 <div class="row gutters fadeInDown animated">

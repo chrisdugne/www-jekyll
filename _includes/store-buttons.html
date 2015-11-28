@@ -1,5 +1,9 @@
-
-<div class="row gutters span_12 highlight center">
+{% if include.hideHighlight %}
+    {% assign highlight = '' %}
+{% else %}
+    {% assign highlight = 'highlight' %}
+{% endif %}
+<div class="row gutters span_12 {{ highlight }}  center">
     <div class="col span_6">
         <a class="store-button" href="{{page.google-play-url}}" target="_blank" style="background-image: url({{site.baseurl}}/public/images/common/google-play.png);"></a>
     </div>
