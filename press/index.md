@@ -10,6 +10,8 @@ app-store-url: "https://itunes.apple.com/us/app/id1037707233"
 {% assign press = site.data.press %}
 
 <div class="gutters fadeInDown animated">
+  <img src= "/public/images/projects/phantoms/title.png"
+  style="padding: 0px 30%;"/>
   <h1>Description</h1>
   <h4 class="bundle">Developer:</h4>
   <p>{{ press.developer }}</p>

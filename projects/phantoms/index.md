@@ -1,13 +1,15 @@
 ---
 layout: project
 logo: projects/phantoms/logo.250.jpg
-title: Phantoms
 id: phantoms
 google-play-url: "https://play.google.com/store/apps/details?id=com.uralys.phantoms"
 app-store-url: "https://itunes.apple.com/us/app/id1037707233"
 ---
 
 {% assign press = site.data.press %}
+
+<img src= "/public/images/projects/phantoms/title.png"
+  style="padding: 0px 30%;"/>
 
 {% include game-description.html num=0 %}
 
