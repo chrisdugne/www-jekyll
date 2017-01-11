@@ -39,7 +39,7 @@ app-store-url: "https://itunes.apple.com/us/app/id1037707233"
   <div class="row gutters span_12">
       <iframe width="860"
               height="512"
-              src="http://www.youtube.com/embed/yRW5d_Fzyfo"
+              src="http://www.youtube.com/embed/JELDE2yfwKI"
               frameborder="0">
       </iframe>
   </div>
