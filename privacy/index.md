@@ -1,6 +1,6 @@
 ---
 layout: page
-title: plop
+title:
 logo: projects/phantoms/logo.250.jpg
 ---
 
