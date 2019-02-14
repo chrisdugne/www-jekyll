@@ -1,10 +1,8 @@
 ---
 layout: page
-title:
+title: Privacy Policy
 logo: projects/phantoms/logo.250.jpg
 ---
-
-# Privacy Policy
 
 [_Uralys_](http://uralys.com) games are operated and maintained by [@chrisdugne](https://twitter.com/chrisdugne).
 
